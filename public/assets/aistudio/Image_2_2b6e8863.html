@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us | RIMFORCE Alloy Wheels - Precision CNC Engineering</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Montserrat & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Verbatim Tailwind Configuration -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-surface": "#e3e2e8",
+            "surface-container": "#1f1f24",
+            "on-secondary": "#2e3132",
+            "outline-variant": "#5d3f3b",
+            "tertiary-fixed-dim": "#bec7d6",
+            "on-secondary-fixed-variant": "#454748",
+            "tertiary": "#bec7d6",
+            "surface-variant": "#343439",
+            "inverse-on-surface": "#2f3035",
+            "on-error": "#690005",
+            "surface-dim": "#121317",
+            "outline": "#ae8883",
+            "inverse-surface": "#e3e2e8",
+            "primary-fixed": "#ffdad5",
+            "surface-container-highest": "#343439",
+            "on-primary-fixed-variant": "#930008",
+            "surface": "#121317",
+            "on-tertiary-fixed-variant": "#3e4753",
+            "secondary-fixed-dim": "#c5c6c7",
+            "on-tertiary-fixed": "#131c27",
+            "primary-container": "#e62020",
+            "surface-container-low": "#1a1b20",
+            "on-surface-variant": "#e7bdb7",
+            "primary": "#ffb4aa",
+            "secondary-container": "#47494a",
+            "on-error-container": "#ffdad6",
+            "surface-container-high": "#292a2e",
+            "on-tertiary-container": "#fffdff",
+            "on-tertiary": "#28313c",
+            "tertiary-container": "#6d7683",
+            "on-background": "#e3e2e8",
+            "background": "#121317",
+            "inverse-primary": "#c0000f",
+            "surface-tint": "#ffb4aa",
+            "on-primary-container": "#fffeff",
+            "secondary": "#c5c6c7",
+            "on-secondary-container": "#b7b8b9",
+            "surface-container-lowest": "#0d0e12",
+            "tertiary-fixed": "#dae3f2",
+            "on-primary": "#690004",
+            "on-primary-fixed": "#410001",
+            "on-secondary-fixed": "#1a1c1d",
+            "secondary-fixed": "#e2e2e3",
+            "primary-fixed-dim": "#ffb4aa",
+            "surface-bright": "#38393e",
+            "error": "#ffb4ab",
+            "error-container": "#93000a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-sm": "1.25rem",
+            "space-lg": "1.5rem",
+            "space-2xl": "4rem",
+            "gutter": "1.5rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "space-xl": "2.5rem",
+            "margin": "3rem",
+            "space-xs": "0.25rem",
+            "gutter-sm": "1rem"
+          },
+          "fontFamily": {
+            "headline-xl": ["Montserrat"],
+            "body-sm": ["Inter"],
+            "headline-md": ["Montserrat"],
+            "display-hero": ["Montserrat"],
+            "headline-xl-mobile": ["Montserrat"],
+            "label-caps-lg": ["Montserrat"],
+            "spec-num": ["Inter"],
+            "display-hero-mobile": ["Montserrat"],
+            "label-caps-sm": ["Montserrat"],
+            "headline-lg": ["Montserrat"],
+            "headline-sm": ["Montserrat"],
+            "body-lg": ["Inter"],
+            "body-md": ["Inter"]
+          },
+          "fontSize": {
+            "headline-xl": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "display-hero": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-caps-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "spec-num": ["14px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "label-caps-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.15em", "fontWeight": "700" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    /* Technical Grid Backdrop */
+    .bg-tech-grid {
+      background-image: 
+        linear-gradient(to right, rgba(197, 198, 199, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(197, 198, 199, 0.04) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    /* Precision chamfer glow */
+    .crimson-glow {
+      box-shadow: 0 0 24px rgba(230, 32, 32, 0.28);
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden min-h-screen flex flex-col justify-between">
+<!-- TOP NAVIGATION BAR (Anchored from Shared Components JSON) -->
+<header class="sticky top-0 z-50 bg-surface-container-lowest/90 border-b border-outline-variant/30 shadow-2xl backdrop-blur-md">
+<div class="w-full px-6 lg:px-12 flex justify-between items-center h-20 max-w-[1440px] mx-auto">
+<!-- Brand Logo Cluster -->
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-3 group" href="#">
+<img alt="Rimforce Forged Dynamics" class="h-9 w-auto object-contain transition-transform duration-200 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrWtvH3Avpv80Di-ZIiJi-rZb8IfRD66PlqXNka5dmUe-LnFgcJwvIssIa7gl283kvk-yTJa9xUfhenukPvH7emZcCyl6xy2o0bOPf6S0lT20QGNF1mJ9IwmHKG2nb2cTwXQWI_kqrXpK7mwHXqIUI8G9Oj2curGkxZbDia4VxGhCnPQ0RJMUImBMcjyr4ogkyFR6SnYADSvkdlWRknrNieTeV0I-vnR1St6CZ02S72Vrm2myQHfTXeCExBilpZMIHC4o"/>
+<span class="font-display-hero text-headline-lg font-extrabold tracking-tight text-on-surface uppercase hidden sm:inline-block">RIMFORCE</span>
+</a>
+</div>
+<!-- Center Navigation Links -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors" href="#">Collections</a>
+<a class="text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors" href="#">Forged Series</a>
+<a class="text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors" href="#">Fitment Guide</a>
+<a class="text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors" href="#">Aerodynamics</a>
+<a class="text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors" href="#">Bespoke Build</a>
+<!-- Active Indicator for Contextual Page -->
+<a class="border-b-2 border-primary-container text-primary-container pb-1 font-label-caps-lg uppercase tracking-wider" href="#">Contact</a>
+</nav>
+<!-- Trailing Action Cluster -->
+<div class="flex items-center gap-4">
+<!-- Vehicle Fitment Primary Pill -->
+<a class="hidden md:inline-flex items-center gap-2 px-3.5 py-2 bg-surface-container-low border border-secondary/20 hover:border-primary-container text-on-surface text-label-caps-sm font-label-caps-sm uppercase tracking-wider transition-colors" href="#">
+<span class="material-symbols-outlined text-primary-container text-[18px]">directions_car</span>
+<span>Vehicle Fitment</span>
+</a>
+<!-- Account -->
+<button class="p-2 text-secondary hover:text-on-surface transition-colors active:scale-95" title="Account">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</button>
+<!-- Shopping Cart with Badge -->
+<button class="relative p-2 text-secondary hover:text-on-surface transition-colors active:scale-95" title="Cart">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary-container"></span>
+</button>
+</div>
+</div>
+</header>
+<!-- MAIN CANVAS -->
+<main class="flex-1 w-full bg-tech-grid relative">
+<!-- Atmospheric Red Flare Overlay (Subtle Aerospace Ambient) -->
+<div class="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[340px] bg-primary-container/5 blur-[120px] rounded-full"></div>
+<div class="max-w-[1440px] mx-auto px-6 lg:px-12 py-12 lg:py-16">
+<!-- HERO SECTION -->
+<section class="mb-14 lg:mb-20">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-8 h-[2px] bg-primary-container"></span>
+<span class="font-label-caps-sm text-label-caps-sm tracking-widest text-primary-container uppercase">CONNECT WITH RIMFORCE</span>
+<span class="text-xs px-2 py-0.5 rounded bg-surface-container-high text-secondary border border-secondary/20 font-spec-num text-spec-num">DIRECT CAD &amp; SPEC SUPPORT</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl lg:text-[48px] lg:leading-[56px] text-on-surface uppercase max-w-4xl tracking-tight mb-5">
+          Get in Touch With Our Wheel Specialists &amp; Global Headquarters
+        </h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-3xl leading-relaxed mb-8">
+          Have questions about standard fitment, order tracking, dealer distribution, or media inquiries? Our technical advisors and customer relations team are here to assist.
+        </p>
+<!-- Quick Contact Pills -->
+<div class="flex flex-wrap items-center gap-3">
+<a class="flex items-center gap-2.5 px-4 py-2.5 bg-surface-container-low border border-secondary/20 hover:border-primary-container text-on-surface hover:text-primary-container transition-all group rounded-lg" href="tel:+498944109200">
+<span class="material-symbols-outlined text-[18px] text-primary-container">call</span>
+<div class="flex flex-col text-left">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Munich HQ</span>
+<span class="font-spec-num text-spec-num font-semibold text-on-surface group-hover:text-primary-container">+49 89 4410 9200</span>
+</div>
+</a>
+<a class="flex items-center gap-2.5 px-4 py-2.5 bg-surface-container-low border border-secondary/20 hover:border-primary-container text-on-surface hover:text-primary-container transition-all group rounded-lg" href="tel:+18008923674">
+<span class="material-symbols-outlined text-[18px] text-primary-container">support_agent</span>
+<div class="flex flex-col text-left">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">US Concierge</span>
+<span class="font-spec-num text-spec-num font-semibold text-on-surface group-hover:text-primary-container">+1 800 892-FORGE</span>
+</div>
+</a>
+<a class="flex items-center gap-2.5 px-4 py-2.5 bg-surface-container-low border border-secondary/20 hover:border-primary-container text-on-surface hover:text-primary-container transition-all group rounded-lg" href="mailto:contact@rimforcewheels.com">
+<span class="material-symbols-outlined text-[18px] text-primary-container">mail</span>
+<div class="flex flex-col text-left">
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase">Support Email</span>
+<span class="font-spec-num text-spec-num font-semibold text-on-surface group-hover:text-primary-container">contact@rimforcewheels.com</span>
+</div>
+</a>
+<div class="flex items-center gap-2 px-3 py-2 bg-surface-container border border-secondary/15 rounded-lg text-secondary text-xs font-spec-num ml-auto">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span class="font-label-caps-sm text-label-caps-sm uppercase">Global Engineering Desk: Online</span>
+</div>
+</div>
+</section>
+<!-- MAIN CONTACT GRID (TWO COLUMNS) -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-20 items-start">
+<!-- LEFT COLUMN: Client Contact Form (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-low border border-secondary/15 p-8 lg:p-10 rounded-xl relative shadow-2xl">
+<!-- Structural corner decoration -->
+<div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary-container"></div>
+<div class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-secondary/40"></div>
+<div class="flex items-center justify-between pb-6 mb-8 border-b border-secondary/15">
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-primary-container uppercase tracking-wider block mb-1">INQUIRY DISPATCH</span>
+<h2 class="font-headline-md text-headline-md uppercase text-on-surface">Direct Technical Message</h2>
+</div>
+<div class="hidden sm:flex items-center gap-1.5 px-2.5 py-1 bg-surface-container border border-secondary/15 text-secondary text-label-caps-sm font-label-caps-sm uppercase">
+<span class="material-symbols-outlined text-primary-container text-[16px]">verified</span>
+<span>CNC Certified Team</span>
+</div>
+</div>
+<form action="#" class="space-y-6" method="POST" onsubmit="event.preventDefault();">
+<!-- Inquiry Topic Selector -->
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="inquiry_topic">
+                Inquiry Topic <span class="text-primary-container">*</span>
+</label>
+<div class="relative">
+<select class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 py-2 text-body-md focus:border-primary-container focus:ring-0 focus:outline-none transition-colors appearance-none cursor-pointer rounded-lg" id="inquiry_topic">
+<option class="bg-surface-container text-on-surface" value="order_status">Order Status &amp; Tracking</option>
+<option class="bg-surface-container text-on-surface" selected="" value="fitment">Standard Wheel Fitment Question</option>
+<option class="bg-surface-container text-on-surface" value="wholesale">Wholesale &amp; Dealer Partnership</option>
+<option class="bg-surface-container text-on-surface" value="press">Press &amp; Media</option>
+<option class="bg-surface-container text-on-surface" value="general">General Inquiry</option>
+</select>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-secondary">
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Name & Email Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="full_name">
+                  Full Name <span class="text-primary-container">*</span>
+</label>
+<input class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg" id="full_name" placeholder="e.g. Marcus Vance" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="email_address">
+                  Email Address <span class="text-primary-container">*</span>
+</label>
+<input class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg" id="email_address" placeholder="name@domain.com" required="" type="email"/>
+</div>
+</div>
+<!-- Phone & Country / Region Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="phone_number">
+                  Phone Number
+                </label>
+<input class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg" id="phone_number" placeholder="+1 (555) 019-2834" type="tel"/>
+</div>
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="country_region">
+                  Country / Region <span class="text-primary-container">*</span>
+</label>
+<input class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg" id="country_region" placeholder="Germany, United States, UAE..." required="" type="text"/>
+</div>
+</div>
+<!-- Vehicle Model / Year (Optional quick field for fitment advice) -->
+<div>
+<div class="flex items-center justify-between mb-2">
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider" for="vehicle_details">
+                  Vehicle Model &amp; Year (Optional for Fitment Verification)
+                </label>
+<span class="font-label-caps-sm text-label-caps-sm text-primary-container">BRAKE CLEARANCE CALCULATION</span>
+</div>
+<input class="w-full h-12 bg-surface-container border border-secondary/25 text-on-surface px-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg" id="vehicle_details" placeholder="e.g. 2024 Porsche 911 GT3 RS (992) with PCCB Carbon Ceramics" type="text"/>
+</div>
+<!-- Message Area -->
+<div>
+<label class="block font-label-caps-sm text-label-caps-sm uppercase text-secondary tracking-wider mb-2" for="message">
+                Message &amp; Technical Specifications <span class="text-primary-container">*</span>
+</label>
+<textarea class="w-full bg-surface-container border border-secondary/25 text-on-surface p-4 text-body-md placeholder:text-secondary/50 focus:border-primary-container focus:ring-0 focus:outline-none transition-colors rounded-lg resize-y" id="message" placeholder="Detail your exact requirements, bolt patterns, custom offsets, or order reference ID..." required="" rows="4"></textarea>
+</div>
+<!-- Newsletter Checkbox -->
+<div class="flex items-start gap-3 pt-2">
+<input class="mt-1 w-4 h-4 bg-surface-container border border-secondary/40 text-primary-container rounded focus:ring-0 focus:ring-offset-0 cursor-pointer" id="subscribe_newsletter" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-secondary select-none cursor-pointer" for="subscribe_newsletter">
+                Subscribe to limited forged drops &amp; engineering updates. Be the first to access unreleased center-lock prototypes and track fitment datasets.
+              </label>
+</div>
+<!-- Submit Action & Guarantee -->
+<div class="pt-4 flex flex-col sm:flex-row items-center gap-5 justify-between">
+<button class="w-full sm:w-auto px-9 py-3.5 bg-primary-container hover:bg-[#FF2A2A] text-on-primary-container font-label-caps-lg text-label-caps-lg uppercase rounded tracking-wider transition-all duration-200 crimson-glow active:scale-95 flex items-center justify-center gap-2" type="submit">
+<span>Send Message</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<div class="flex items-center gap-2 text-secondary text-body-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">history</span>
+<span>Guaranteed response within 24 hours on business days</span>
+</div>
+</div>
+</form>
+</div>
+<!-- RIGHT COLUMN: Direct Department Access & Support Cards (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Card 1: Customer Care & Order Telemetry -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl relative hover:border-secondary/35 transition-colors">
+<div class="flex items-start justify-between mb-4">
+<div class="p-3 bg-surface-container border border-secondary/20 rounded-lg text-primary-container">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<span class="px-2.5 py-1 bg-surface-container-high rounded text-xs font-spec-num text-secondary border border-secondary/20">
+                ACTIVE PRODUCTION LINE
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-1">Customer Care &amp; Order Telemetry</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">
+              Monitor your active CNC machining queue, heat treatment status, and multi-stage powder coat curing cycle.
+            </p>
+<div class="space-y-2 py-3 border-t border-b border-secondary/15 font-spec-num text-body-sm mb-4">
+<div class="flex justify-between text-secondary">
+<span>Operating Hours:</span>
+<span class="text-on-surface font-semibold">Mon–Fri 08:00 – 20:00 CET</span>
+</div>
+<div class="flex justify-between text-secondary">
+<span>Direct Dispatch:</span>
+<a class="text-primary-container hover:underline" href="mailto:ops@rimforcewheels.com">ops@rimforcewheels.com</a>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 text-on-surface hover:text-primary-container font-label-caps-sm text-label-caps-sm uppercase tracking-wider transition-colors" href="https://wa.me/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">chat</span>
+<span>Open Concierge WhatsApp Link</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+<!-- Card 2: Dealer & Distribution Network -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl hover:border-secondary/35 transition-colors">
+<div class="flex items-start justify-between mb-4">
+<div class="p-3 bg-surface-container border border-secondary/20 rounded-lg text-primary-container">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<span class="px-2.5 py-1 bg-surface-container-high rounded text-xs font-label-caps-sm text-secondary uppercase border border-secondary/20">
+                B2B PARTNERS
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-1">Dealer &amp; Distribution Network</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">
+              Expand your performance workshop portfolio. Access verified wholesale margins, dedicated engineering offsets, and direct dealer priority batch scheduling.
+            </p>
+<a class="inline-flex items-center gap-2 px-4 py-2.5 bg-surface-container border border-secondary/25 hover:border-primary-container text-on-surface text-label-caps-sm font-label-caps-sm uppercase tracking-wider transition-colors rounded" href="#">
+<span>Apply for Certified Installer Tier</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Card 3: Warranty, TUV & Technical Documentation -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl hover:border-secondary/35 transition-colors">
+<div class="flex items-start justify-between mb-4">
+<div class="p-3 bg-surface-container border border-secondary/20 rounded-lg text-primary-container">
+<span class="material-symbols-outlined text-[24px]">description</span>
+</div>
+<span class="px-2.5 py-1 bg-surface-container-high rounded text-xs font-label-caps-sm text-primary-container uppercase border border-primary-container/30">
+                TÜV NORD VERIFIED
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-1">Warranty &amp; Technical Documentation</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">
+              Instant access to aerospace-grade 6061-T6 alloy certificates, FEA stress analyses, TÜV approval forms, and bespoke torque spec sheets.
+            </p>
+<div class="grid grid-cols-2 gap-2">
+<a class="flex items-center gap-2 p-2.5 bg-surface-container border border-secondary/15 hover:border-secondary/40 text-secondary hover:text-on-surface font-body-sm text-xs rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-primary-container text-[16px]">download</span>
+<span>TÜV Cert Pack</span>
+</a>
+<a class="flex items-center gap-2 p-2.5 bg-surface-container border border-secondary/15 hover:border-secondary/40 text-secondary hover:text-on-surface font-body-sm text-xs rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-primary-container text-[16px]">download</span>
+<span>Care &amp; Torque Guide</span>
+</a>
+</div>
+</div>
+<!-- Card 4: Precision Headquarters Summary -->
+<div class="p-5 bg-surface-container-high/60 border border-secondary/20 rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container text-[24px]">pin_drop</span>
+<div>
+<span class="font-headline-sm text-sm uppercase text-on-surface block">Munich &amp; Los Angeles Centers</span>
+<span class="text-xs text-secondary font-spec-num">CAD Consultation Available by Appointment</span>
+</div>
+</div>
+<a class="text-primary-container hover:text-white font-label-caps-sm text-label-caps-sm uppercase tracking-wider flex items-center gap-1 transition-colors" href="#studios">
+<span>View Map</span>
+<span class="material-symbols-outlined text-[16px]">south</span>
+</a>
+</div>
+</div>
+</section>
+<!-- GLOBAL SHOWROOM & ATELIER LOCATIONS (3 horizontal cards) -->
+<section class="mb-20" id="studios">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-4 border-b border-secondary/15">
+<div>
+<span class="font-label-caps-sm text-label-caps-sm text-primary-container uppercase tracking-widest block mb-1">GLOBAL PRESENCE</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-on-surface">Ateliers &amp; Engineering Centers</h2>
+</div>
+<span class="font-body-sm text-body-sm text-secondary mt-2 sm:mt-0">Private consultations available with our chief wheel architects.</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Atelier 1: Munich -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl flex flex-col justify-between hover:border-primary-container transition-all group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary-container border border-primary-container/30 text-label-caps-sm font-label-caps-sm uppercase">Global Engineering HQ</span>
+<span class="text-xs font-spec-num text-secondary">DE // UTC+1</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-2 group-hover:text-primary-container transition-colors">
+                Munich Engineering Center
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4 leading-relaxed">
+                Parkring 18, 85748 Garching b. München, Germany
+              </p>
+<div class="space-y-1.5 font-spec-num text-body-sm mb-6 text-secondary">
+<div class="flex justify-between">
+<span class="text-secondary/70">Phone:</span>
+<span class="text-on-surface font-semibold">+49 89 4410 9200</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Hours:</span>
+<span class="text-on-surface">Mon–Fri: 08:30 – 19:00</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Testing:</span>
+<span class="text-on-surface">Dyno &amp; TÜV Laser Scanning</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 bg-surface-container border border-secondary/25 hover:border-primary-container hover:bg-surface-container-high text-on-surface text-center font-label-caps-sm text-label-caps-sm uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-1.5" href="#">
+<span>Directions &amp; Visit Booking</span>
+<span class="material-symbols-outlined text-[16px]">near_me</span>
+</a>
+</div>
+<!-- Atelier 2: Los Angeles -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl flex flex-col justify-between hover:border-primary-container transition-all group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-secondary border border-secondary/30 text-label-caps-sm font-label-caps-sm uppercase">US Design Atelier</span>
+<span class="text-xs font-spec-num text-secondary">US // UTC-8</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-2 group-hover:text-primary-container transition-colors">
+                Los Angeles Atelier
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4 leading-relaxed">
+                2201 S Sepulveda Blvd, Los Angeles, CA 90064, United States
+              </p>
+<div class="space-y-1.5 font-spec-num text-body-sm mb-6 text-secondary">
+<div class="flex justify-between">
+<span class="text-secondary/70">Phone:</span>
+<span class="text-on-surface font-semibold">+1 310 943 8920</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Hours:</span>
+<span class="text-on-surface">Tue–Sat: 09:00 – 18:00</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Services:</span>
+<span class="text-on-surface">3D Vehicle Staging &amp; Bespoke Spec</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 bg-surface-container border border-secondary/25 hover:border-primary-container hover:bg-surface-container-high text-on-surface text-center font-label-caps-sm text-label-caps-sm uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-1.5" href="#">
+<span>Directions &amp; Visit Booking</span>
+<span class="material-symbols-outlined text-[16px]">near_me</span>
+</a>
+</div>
+<!-- Atelier 3: Dubai -->
+<div class="bg-surface-container-low border border-secondary/15 p-6 rounded-xl flex flex-col justify-between hover:border-primary-container transition-all group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-secondary border border-secondary/30 text-label-caps-sm font-label-caps-sm uppercase">Middle East VIP Salon</span>
+<span class="text-xs font-spec-num text-secondary">UAE // UTC+4</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-2 group-hover:text-primary-container transition-colors">
+                Dubai Private Studio
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4 leading-relaxed">
+                Warehouse 14, Al Quoz Industrial Area 3, Dubai, UAE
+              </p>
+<div class="space-y-1.5 font-spec-num text-body-sm mb-6 text-secondary">
+<div class="flex justify-between">
+<span class="text-secondary/70">Phone:</span>
+<span class="text-on-surface font-semibold">+971 4 388 9102</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Hours:</span>
+<span class="text-on-surface">Sun–Thu: 10:00 – 20:00</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary/70">Exclusives:</span>
+<span class="text-on-surface">Hypercar Center-Lock Tailoring</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 bg-surface-container border border-secondary/25 hover:border-primary-container hover:bg-surface-container-high text-on-surface text-center font-label-caps-sm text-label-caps-sm uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-1.5" href="#">
+<span>Directions &amp; Visit Booking</span>
+<span class="material-symbols-outlined text-[16px]">near_me</span>
+</a>
+</div>
+</div>
+</section>
+<!-- QUICK HELP / FAQ STRIP -->
+<section class="mb-14">
+<div class="flex items-center gap-3 mb-6">
+<span class="w-6 h-[2px] bg-primary-container"></span>
+<span class="font-label-caps-sm text-label-caps-sm text-secondary uppercase tracking-widest">RAPID TELEMETRY FAQ</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-surface-container-lowest border border-secondary/15 p-6 rounded-lg relative overflow-hidden">
+<div class="flex items-center gap-3 mb-3">
+<span class="material-symbols-outlined text-primary-container text-[22px]">flight_takeoff</span>
+<h4 class="font-headline-sm text-base uppercase text-on-surface">Where is my order shipped from?</h4>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              All bespoke and forged monoblock rims are engineered and precision-packaged directly out of our primary automated Munich CNC and TUV inspection facility in Germany, with insured international air freight.
+            </p>
+</div>
+<div class="bg-surface-container-lowest border border-secondary/15 p-6 rounded-lg relative overflow-hidden">
+<div class="flex items-center gap-3 mb-3">
+<span class="material-symbols-outlined text-primary-container text-[22px]">public</span>
+<h4 class="font-headline-sm text-base uppercase text-on-surface">Do you ship worldwide?</h4>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Yes. We ship to over 85 countries with full customs handling, climate-regulated flight pallets, and guaranteed undamaged transit insurance via DHL Express Aviation and FedEx Aerospace logistics.
+            </p>
+</div>
+<div class="bg-surface-container-lowest border border-secondary/15 p-6 rounded-lg relative overflow-hidden">
+<div class="flex items-center gap-3 mb-3">
+<span class="material-symbols-outlined text-primary-container text-[22px]">meeting_room</span>
+<h4 class="font-headline-sm text-base uppercase text-on-surface">Can I visit a showroom in person?</h4>
+</div>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Ateliers in Munich, Los Angeles, and Dubai accept private vehicle fittings by advance reservation. Contact our concierge desk or use the appointment form above to secure track or studio access.
+            </p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- FOOTER (Anchored from Shared Components JSON) -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/20 flat no shadows">
+<div class="w-full px-6 lg:px-12 py-16 max-w-[1440px] mx-auto flex flex-col gap-12">
+<!-- Top Row: Logo, Brand Statement, and Legal Seals -->
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 pb-10 border-b border-secondary/10">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<img alt="Rimforce Forged Dynamics" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrWtvH3Avpv80Di-ZIiJi-rZb8IfRD66PlqXNka5dmUe-LnFgcJwvIssIa7gl283kvk-yTJa9xUfhenukPvH7emZcCyl6xy2o0bOPf6S0lT20QGNF1mJ9IwmHKG2nb2cTwXQWI_kqrXpK7mwHXqIUI8G9Oj2curGkxZbDia4VxGhCnPQ0RJMUImBMcjyr4ogkyFR6SnYADSvkdlWRknrNieTeV0I-vnR1St6CZ02S72Vrm2myQHfTXeCExBilpZMIHC4o"/>
+<span class="font-display-hero text-headline-md font-extrabold uppercase tracking-tight text-on-surface">RIMFORCE</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary max-w-md">
+            Ultra-performance forged alloy wheels crafted from aerospace-grade 6061-T6 aluminum. Engineered in Munich, proven on global circuits.
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-6 text-secondary text-label-caps-sm font-label-caps-sm uppercase">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[18px]">workspace_premium</span>
+<span>ISO 9001 Certified</span>
+</span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[18px]">verified</span>
+<span>TÜV Kraftfahrt Compliant</span>
+</span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[18px]">shield</span>
+<span>Lifetime Structural Warranty</span>
+</span>
+</div>
+</div>
+<!-- Center Links Array (Immutable text mapped directly from JSON) -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 text-left">
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Forged Dynamics</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Track Fitment Guarantee</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">TUV Certification</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Aerospace Alloys</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Warranty &amp; Care</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Bespoke Inquiries</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Privacy Policy</a>
+<a class="text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors" href="#">Terms of Service</a>
+</div>
+<!-- Bottom Row: Copyright text from JSON & Social Handles -->
+<div class="flex flex-col sm:flex-row justify-between items-center gap-6 pt-6 border-t border-secondary/10">
+<p class="font-body-sm text-body-sm text-secondary/70">
+          © 2025 RIMFORCE ALLOY WHEELS. PRECISION CNC ENGINEERING. ALL RIGHTS RESERVED.
+        </p>
+<div class="flex items-center gap-4 text-secondary">
+<a class="hover:text-primary-container transition-colors" href="#" title="Instagram">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+<a class="hover:text-primary-container transition-colors" href="#" title="YouTube">
+<span class="material-symbols-outlined text-[20px]">smart_display</span>
+</a>
+<a class="hover:text-primary-container transition-colors" href="#" title="LinkedIn">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

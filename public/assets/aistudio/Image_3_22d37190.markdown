@@ -1,0 +1,233 @@
+---
+name: Forged Apex Dynamics
+colors:
+  surface: '#121317'
+  surface-dim: '#121317'
+  surface-bright: '#38393e'
+  surface-container-lowest: '#0d0e12'
+  surface-container-low: '#1a1b20'
+  surface-container: '#1f1f24'
+  surface-container-high: '#292a2e'
+  surface-container-highest: '#343439'
+  on-surface: '#e3e2e8'
+  on-surface-variant: '#e7bdb7'
+  inverse-surface: '#e3e2e8'
+  inverse-on-surface: '#2f3035'
+  outline: '#ae8883'
+  outline-variant: '#5d3f3b'
+  surface-tint: '#ffb4aa'
+  primary: '#ffb4aa'
+  on-primary: '#690004'
+  primary-container: '#e62020'
+  on-primary-container: '#fffeff'
+  inverse-primary: '#c0000f'
+  secondary: '#c5c6c7'
+  on-secondary: '#2e3132'
+  secondary-container: '#47494a'
+  on-secondary-container: '#b7b8b9'
+  tertiary: '#bec7d6'
+  on-tertiary: '#28313c'
+  tertiary-container: '#6d7683'
+  on-tertiary-container: '#fffdff'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdad5'
+  primary-fixed-dim: '#ffb4aa'
+  on-primary-fixed: '#410001'
+  on-primary-fixed-variant: '#930008'
+  secondary-fixed: '#e2e2e3'
+  secondary-fixed-dim: '#c5c6c7'
+  on-secondary-fixed: '#1a1c1d'
+  on-secondary-fixed-variant: '#454748'
+  tertiary-fixed: '#dae3f2'
+  tertiary-fixed-dim: '#bec7d6'
+  on-tertiary-fixed: '#131c27'
+  on-tertiary-fixed-variant: '#3e4753'
+  background: '#121317'
+  on-background: '#e3e2e8'
+  surface-variant: '#343439'
+typography:
+  display-hero:
+    fontFamily: Montserrat
+    fontSize: 64px
+    fontWeight: '800'
+    lineHeight: 72px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Montserrat
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 42px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Montserrat
+    fontSize: 44px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Montserrat
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Montserrat
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Montserrat
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Montserrat
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-caps-lg:
+    fontFamily: Montserrat
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.12em
+  label-caps-sm:
+    fontFamily: Montserrat
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.15em
+  spec-num:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 3rem
+  margin-sm: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system expresses ultra-performance luxury, precision CNC engineering, and unapologetic power. Tailored for bespoke aftermarket wheel connoisseurs, track drivers, and luxury hypercar owners, the interface balances raw mechanical intensity with refined editorial restraint.
+
+The style unites **Tactile High-Contrast Minimalism** with **Subtle Cyber-Mechanical Accents**:
+- Deep, light-absorbing obsidian voids anchor the experience.
+- Laser-machined metallic lines, brushed titanium chamfers, and precise high-speed crimson telemetry flares provide visual tension.
+- Product staging mimics high-end studio light boxes with rim-lighting reflections, specular micro-highlights, and architectural precision.
+- Interactive states trigger sharp, decisive shifts reminiscent of paddle-shifters and track instruments—delivering immediate tactile confidence.
+
+## Colors
+
+The palette is engineered around dark-spectrum contrast and luminous performance accents:
+
+- **Deep Obsidian (`#0B0C10`)**: The primary foundation. Absorbs clutter and creates an infinite black backdrop that elevates forged metal finishes.
+- **Carbon Canvas (`#12141A`) & Alloy Base (`#1F2833`)**: Tonal structural tiers for cards, panels, spec tables, and segmented viewports.
+- **Precision Racing Crimson (`#E62020` / `#FF2A2A`)**: The primary interactive strike color. Reserved for high-value calls-to-action, fitment locks, active states, cart triggers, and tachometric alerts.
+- **Brushed Titanium (`#C5C6C7`) & Billet Silver (`#EAECEE`)**: High-fidelity typographical hierarchy, subtle hairline borders, and polished surface accents.
+- **Muted Graphites (`#454F59` / `#2B333E`)**: Structural dividers, disabled states, and inactive geometry.
+
+Use pure white (`#FFFFFF`) sparingly, strictly for primary hero titles and specular lighting effects.
+
+## Typography
+
+The typographic pairing enforces mechanical rigour through two complementary engines:
+
+1. **Montserrat (Display & Section Headers)**: Dense, wide proportions with motorsport lineage. Used strictly in bold and extrabold weights for punchy headlines and tracked-out mechanical micro-labels. All small labels (`label-caps-*`) must render in uppercase with positive letter spacing (`0.12em` to `0.15em`) to evoke chassis serial stampings.
+2. **Inter (Interface & Data)**: Neutral, ultra-legible geometry for technical readouts, offset fitment tables, load ratings, and long-form editorial copy.
+
+Keep body text locked to `#C5C6C7` or `#8E959E` on obsidian layers to reduce eye fatigue and maximize high-key product luminosity.
+
+## Layout & Spacing
+
+The architecture operates on an uncompromising 8px mechanical grid:
+
+- **Desktop (12-column layout)**: Max-width 1440px with `margin` at `3rem` and `gutter` at `1.5rem`. Technical parameter overlays, vehicle fitment pickers, and product imagery occupy calibrated split-pane modules (50/50 or 60/40 splits).
+- **Tablet (8-column layout)**: Breakpoint at 1024px. Margins collapse to `2rem`, gutters maintain `1.25rem`. Complex wheel builder views reflow into stacked canvas viewports with sticky control docks.
+- **Mobile (4-column layout)**: Breakpoint at 640px. Outer canvas margins contract to `margin-sm` (`1.25rem`) with `gutter-sm` (`1rem`). Technical specifications shift from inline comparative matrices into horizontal snap-scrolling cards.
+
+## Elevation & Depth
+
+Visual hierarchy uses a machined surface-stacking philosophy rather than soft, generic drop shadows:
+
+- **Layer 0 (Core Void)**: Base screen background `#0B0C10`.
+- **Layer 1 (Card & Module Chassis)**: Backplate color `#12141A` bounded by a 1px hairline border of `rgba(197, 198, 199, 0.12)`.
+- **Layer 2 (Elevated Flyouts & Drawers)**: `#1F2833` with subtle drop shadow: `0 20px 40px rgba(0, 0, 0, 0.75)` combined with a top-edge highlight (`box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1)`).
+- **Performance Crimson Ambient Glow**: On high-priority cards, selected wheel finishes, and checkout triggers: `box-shadow: 0 0 24px rgba(230, 32, 32, 0.25)`.
+- **Backdrop Frosting**: Sticky navigation overlays and quick-spec popovers utilize deep frosted glass: `rgba(11, 12, 16, 0.82)` with `backdrop-filter: blur(16px)`.
+
+## Shapes
+
+The form language is disciplined, angular, and structural:
+
+- Set to level `1` (Soft): Standard radii remain tight at `0.25rem` (4px), reflecting the sharp chamfers and CNC-milled edge tolerances of custom forged aluminum wheels.
+- `rounded-lg` sits at `0.5rem` (8px) for master dialogue modules and cart trays.
+- Round geometry (50% border radius) is strictly sequestered to wheel finish swatch selectors, lug-pattern indicator icons, and circular status markers.
+- Pill buttons and soft bubble shapes are prohibited across all layouts.
+
+## Components
+
+### Buttons
+- **Primary Action (Track Red)**: `#E62020` solid background, text in white `label-caps-lg`, uppercase, font weight 700. Subtle chamfered corners (4px radius). Hover state shifts background to `#FF2A2A` with a radiant crimson glow (`0 0 16px rgba(255, 42, 42, 0.4)`).
+- **Secondary (Billet Metal Outline)**: Transparent background, 1px solid `rgba(197, 198, 199, 0.35)`, text in `#EAECEE`. Hover scales border to solid titanium `#C5C6C7` with background fill `rgba(197, 198, 199, 0.06)`.
+- **Ghost Action**: Monospaced red accent text with a 1px animated crimson underline expanding on hover.
+
+### Product Presentation Cards
+- **Construction**: Dark composite container (`#12141A`) outlined with 1px hairline titanium (`rgba(197, 198, 199, 0.12)`).
+- **Visual Staging Area**: High-contrast matte black vignette staging wheel 3D renders or photography.
+- **Spec Ribbon**: Displaying diameter, width, bolt pattern, and forge material with `label-caps-sm` styling on dark graphite pills (`#1F2833`).
+- **Interactive State**: Elevates +2px on Y-axis; border transitions to crimson `rgba(230, 32, 32, 0.6)` with light perimeter glow.
+
+### Chips & Finish Swatches
+- **Finish Filters (Brushed Bronze, Matte Black, Gloss Red, Raw Titanium)**: Compact rectangular chips with 4px radius. Inactive: `#12141A` with `#8E959E` text. Active: Titanium border (`#C5C6C7`), `#FFFFFF` text, and a precision 2px red indicator strip underneath.
+- **Physical Color Swatches**: 28px circular metal swatches encapsulated by a 1px border. Selected state adds a 2px outer crimson offset ring (`box-shadow: 0 0 0 2px #0B0C10, 0 0 0 4px #E62020`).
+
+### Form Elements & Inputs
+- **Vehicle Match & Custom Dimension Inputs**: Deep carbon backdrop (`#101217`), 1px structural border (`rgba(197, 198, 199, 0.2)`), inner horizontal padding `space-md`, height 48px. Text `#FFFFFF`.
+- **Focus State**: Hairline border sharpens to `#E62020` with zero blur spread to maintain mechanical precision.
+- **Checkboxes & Radios**: Custom angular 18px squares/diamonds. Checked fill is solid `#E62020` with a stark white icon.
+
+### Bespoke E-Commerce Cart & Fitment Confirmation
+- **Fitment Validator Badge**: Dynamic vehicle badge (e.g., "GUARANTEED TRACK FITMENT // 5x112 / ET35"). Dark emerald-crimson status indicators confirming offset compatibility.
+- **Cart Slide-Out Chassis**: Obsidian glass (`rgba(11, 12, 16, 0.94)`) with an integrated CNC-milled weight calculator showing overall unsprung mass savings.
+- **Order Call-To-Action**: Full-width high-vis crimson button paired with instant subtotal and forged build lead times.

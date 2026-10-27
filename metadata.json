@@ -1,0 +1,6 @@
+{
+  "name": "RIMFORCE Alloy Wheels",
+  "description": "Ultra-performance forged alloy wheels crafted from aerospace-grade 6061-T6 aluminum. Precision CNC engineering, vehicle fitment guide, and bespoke wheel configurator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

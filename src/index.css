@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121317;
+  --color-surface-dim: #121317;
+  --color-surface-bright: #38393e;
+  --color-surface-container-lowest: #0d0e12;
+  --color-surface-container-low: #1a1b20;
+  --color-surface-container: #1f1f24;
+  --color-surface-container-high: #292a2e;
+  --color-surface-container-highest: #343439;
+  --color-on-surface: #e3e2e8;
+  --color-on-surface-variant: #e7bdb7;
+  --color-inverse-surface: #e3e2e8;
+  --color-inverse-on-surface: #2f3035;
+  --color-outline: #ae8883;
+  --color-outline-variant: #5d3f3b;
+  --color-surface-tint: #ffb4aa;
+  --color-primary: #ffb4aa;
+  --color-on-primary: #690004;
+  --color-primary-container: #e62020;
+  --color-on-primary-container: #fffeff;
+  --color-inverse-primary: #c0000f;
+  --color-secondary: #c5c6c7;
+  --color-on-secondary: #2e3132;
+  --color-secondary-container: #47494a;
+  --color-on-secondary-container: #b7b8b9;
+  --color-tertiary: #bec7d6;
+  --color-on-tertiary: #28313c;
+  --color-tertiary-container: #6d7683;
+  --color-on-tertiary-container: #fffdff;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-background: #121317;
+  --color-on-background: #e3e2e8;
+
+  --font-display-hero: 'Montserrat', sans-serif;
+  --font-headline-xl: 'Montserrat', sans-serif;
+  --font-headline-lg: 'Montserrat', sans-serif;
+  --font-headline-md: 'Montserrat', sans-serif;
+  --font-headline-sm: 'Montserrat', sans-serif;
+  --font-label-caps-lg: 'Montserrat', sans-serif;
+  --font-label-caps-sm: 'Montserrat', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+  --font-body-sm: 'Inter', sans-serif;
+  --font-spec-num: 'Inter', monospace, sans-serif;
+}
+
+/* Material Symbols Integration */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Technical Precision Grid Backdrop */
+.bg-tech-grid {
+  background-image: 
+    linear-gradient(to right, rgba(197, 198, 199, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(197, 198, 199, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-tech-grid-dense {
+  background-image: 
+    linear-gradient(to right, rgba(230, 32, 32, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(230, 32, 32, 0.06) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.carbon-mesh {
+  background-image: radial-gradient(rgba(197, 198, 199, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.chamfer-btn {
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+
+.crimson-glow-sm {
+  box-shadow: 0 0 16px rgba(230, 32, 32, 0.22);
+}
+
+/* Precision Chamfer Glows */
+.crimson-glow {
+  box-shadow: 0 0 24px rgba(230, 32, 32, 0.28);
+}
+
+.crimson-glow-strong {
+  box-shadow: 0 0 32px rgba(230, 32, 32, 0.45);
+}
+
+.titanium-glow {
+  box-shadow: 0 0 20px rgba(197, 198, 199, 0.15);
+}
+
+/* Custom Scrollbar for Telemetry Feeds */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #292a2e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e62020;
+}

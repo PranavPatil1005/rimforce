@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RIMFORCE | Precision CNC Forged Alloy Wheels</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline-variant": "#5d3f3b",
+            "outline": "#ae8883",
+            "on-secondary-fixed-variant": "#454748",
+            "tertiary-fixed-dim": "#bec7d6",
+            "primary-fixed": "#ffdad5",
+            "secondary-fixed-dim": "#c5c6c7",
+            "tertiary": "#bec7d6",
+            "on-secondary": "#2e3132",
+            "surface-container-highest": "#343439",
+            "on-surface": "#e3e2e8",
+            "on-primary-container": "#fffeff",
+            "on-primary-fixed-variant": "#930008",
+            "inverse-surface": "#e3e2e8",
+            "on-secondary-fixed": "#1a1c1d",
+            "surface-bright": "#38393e",
+            "surface-container-low": "#1a1b20",
+            "on-background": "#e3e2e8",
+            "on-error-container": "#ffdad6",
+            "error-container": "#93000a",
+            "inverse-primary": "#c0000f",
+            "error": "#ffb4ab",
+            "on-secondary-container": "#b7b8b9",
+            "on-tertiary": "#28313c",
+            "on-tertiary-fixed-variant": "#3e4753",
+            "tertiary-container": "#6d7683",
+            "secondary-container": "#47494a",
+            "on-tertiary-fixed": "#131c27",
+            "on-error": "#690005",
+            "tertiary-fixed": "#dae3f2",
+            "surface-dim": "#121317",
+            "surface-container": "#1f1f24",
+            "surface": "#121317",
+            "surface-tint": "#ffb4aa",
+            "primary-container": "#e62020",
+            "background": "#121317",
+            "secondary-fixed": "#e2e2e3",
+            "surface-variant": "#343439",
+            "secondary": "#c5c6c7",
+            "on-primary-fixed": "#410001",
+            "surface-container-high": "#292a2e",
+            "on-primary": "#690004",
+            "inverse-on-surface": "#2f3035",
+            "on-surface-variant": "#e7bdb7",
+            "surface-container-lowest": "#0d0e12",
+            "on-tertiary-container": "#fffdff",
+            "primary": "#ffb4aa",
+            "primary-fixed-dim": "#ffb4aa"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-sm": "1.25rem",
+            "space-xl": "2.5rem",
+            "gutter": "1.5rem",
+            "space-md": "1rem",
+            "margin": "3rem",
+            "gutter-sm": "1rem",
+            "space-xs": "0.25rem",
+            "space-2xl": "4rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "spec-num": ["Inter"],
+            "display-hero-mobile": ["Montserrat"],
+            "headline-xl": ["Montserrat"],
+            "headline-xl-mobile": ["Montserrat"],
+            "label-caps-lg": ["Montserrat"],
+            "body-sm": ["Inter"],
+            "headline-sm": ["Montserrat"],
+            "headline-lg": ["Montserrat"],
+            "body-lg": ["Inter"],
+            "headline-md": ["Montserrat"],
+            "body-md": ["Inter"],
+            "display-hero": ["Montserrat"],
+            "label-caps-sm": ["Montserrat"]
+          },
+          "fontSize": {
+            "spec-num": ["14px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "headline-xl": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-caps-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "display-hero": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "label-caps-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.15em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .carbon-mesh {
+      background-image: radial-gradient(rgba(197, 198, 199, 0.08) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+    .crimson-glow {
+      box-shadow: 0 0 28px rgba(230, 32, 32, 0.28);
+    }
+    .crimson-glow-sm {
+      box-shadow: 0 0 16px rgba(230, 32, 32, 0.22);
+    }
+    .chamfer-btn {
+      clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-white antialiased overflow-x-hidden min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TOP NAVIGATION BAR (Shared Components Token Faithful) -->
+<header class="sticky top-0 z-50 bg-surface-container-lowest/90 dark:bg-surface-container-lowest/90 backdrop-blur-md shadow-2xl border-b border-outline-variant/30">
+<div class="w-full px-6 lg:px-12 flex justify-between items-center h-20 max-w-[1440px] mx-auto">
+<!-- Brand Anchor & Logo -->
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high border border-outline/30 flex items-center justify-center p-1.5 group-hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary-container text-2xl font-bold" data-icon="trip_origin">trip_origin</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-hero text-headline-lg font-extrabold tracking-tight text-on-surface dark:text-on-surface uppercase">RIMFORCE</span>
+<span class="font-label-caps-sm text-[9px] tracking-[0.25em] text-primary-container -mt-1 uppercase">ALLOY WHEELS</span>
+</div>
+</a>
+<!-- Search Bar (on_left) -->
+<div class="hidden xl:flex items-center relative">
+<span class="material-symbols-outlined absolute left-3 text-secondary text-lg" data-icon="search">search</span>
+<input class="bg-surface-container-low border border-secondary/20 rounded h-10 pl-9 pr-4 text-xs font-body-sm text-on-surface placeholder:text-secondary/60 focus:outline-none focus:border-primary-container w-64 transition-all" placeholder="Search Forged Series, PCD, Specs..." type="text"/>
+</div>
+</div>
+<!-- Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="border-b-2 border-primary-container text-primary-container pb-1 font-label-caps-lg uppercase tracking-wider" href="#collections">Collections</a>
+<a class="text-secondary dark:text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors hover:border-primary-container hover:text-primary-container duration-200" href="#forged-series">Forged Series</a>
+<a class="text-secondary dark:text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors hover:border-primary-container hover:text-primary-container duration-200" href="#fitment-guide">Fitment Guide</a>
+<a class="text-secondary dark:text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors hover:border-primary-container hover:text-primary-container duration-200" href="#aerodynamics">Aerodynamics</a>
+<a class="text-secondary dark:text-secondary font-label-caps-lg uppercase tracking-wider hover:text-on-surface transition-colors hover:border-primary-container hover:text-primary-container duration-200" href="#bespoke-build">Bespoke Build</a>
+</nav>
+<!-- Trailing Actions & Interactive Controls -->
+<div class="flex items-center gap-4">
+<!-- Vehicle Fitment Button (Trailing Primary) -->
+<button class="hidden sm:flex items-center gap-2 bg-surface-container-high hover:bg-surface-container-highest border border-secondary/30 hover:border-primary-container px-4 py-2 rounded text-on-surface font-label-caps-sm tracking-wider uppercase transition-all duration-200 active:scale-95" onclick="document.getElementById('fitment-widget').scrollIntoView({behavior: 'smooth'})">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="directions_car">directions_car</span>
+<span>Vehicle Fitment</span>
+</button>
+<!-- Account Button -->
+<button class="p-2 text-secondary hover:text-on-surface rounded border border-transparent hover:border-secondary/20 transition-colors" title="Account">
+<span class="material-symbols-outlined text-xl" data-icon="person">person</span>
+</button>
+<!-- Cart Quick Drawer Trigger (With Counter 2) -->
+<button class="relative p-2 bg-surface-container-low hover:bg-surface-container text-on-surface rounded border border-secondary/20 hover:border-primary-container transition-all active:scale-95 flex items-center justify-center" onclick="toggleCartDrawer()" title="Cart Drawer">
+<span class="material-symbols-outlined text-xl text-primary-container" data-icon="shopping_bag">shopping_bag</span>
+<span class="absolute -top-1.5 -right-1.5 bg-primary-container text-on-primary-container text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center font-spec-num border border-surface-container-lowest">2</span>
+</button>
+</div>
+</div>
+</header>
+<!-- MAIN CANVAS -->
+<main class="flex-1 flex flex-col">
+<!-- HERO SECTION: Atmospheric High-Performance Luxury Staging -->
+<section class="relative min-h-[90vh] flex items-center overflow-hidden border-b border-secondary/10 carbon-mesh bg-surface-container-lowest">
+<!-- Gradient Backdrop & Mechanical Flares -->
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-surface-container-lowest/80 to-transparent z-10 pointer-events-none"></div>
+<div class="absolute -top-40 right-10 w-[700px] h-[700px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 right-1/4 w-[450px] h-[450px] bg-secondary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto w-full px-6 lg:px-12 py-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-20">
+<!-- Hero Text & Value Prop -->
+<div class="lg:col-span-6 flex flex-col gap-6">
+<div class="inline-flex items-center gap-3 bg-surface-container-low border border-primary-container/40 px-3.5 py-1.5 rounded-full w-fit">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-caps-sm text-on-surface text-[10px] tracking-widest uppercase">STRONGER RIDE  |  BOLDER LOOKS</span>
+</div>
+<div class="flex flex-col gap-2">
+<h1 class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold uppercase text-on-surface tracking-tight leading-[1.05]">
+              PRECISION CNC <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-on-surface via-secondary to-primary-container">FORGED ALLOY</span> <br/>
+              WHEELS.
+            </h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-xl mt-2 leading-relaxed">
+              Aerospace-grade 6061-T6 forged aluminum engineered for extreme track performance, ultra-low unsprung rotational inertia, and peerless hypercar stance aesthetics.
+            </p>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<a class="chamfer-btn bg-primary-container hover:bg-[#FF2A2A] text-on-primary-container px-8 py-4 font-label-caps-lg text-label-caps-lg uppercase font-bold tracking-wider transition-all duration-200 crimson-glow active:scale-95 flex items-center gap-3" href="#collections">
+<span>Explore Forged Catalog</span>
+<span class="material-symbols-outlined text-lg" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<button class="border border-secondary/35 hover:border-secondary hover:bg-secondary/10 text-on-surface px-8 py-4 font-label-caps-lg text-label-caps-lg uppercase font-bold tracking-wider transition-all duration-200 active:scale-95 flex items-center gap-2" onclick="document.getElementById('fitment-widget').scrollIntoView({behavior: 'smooth'})">
+<span class="material-symbols-outlined text-sm text-primary-container" data-icon="tune">tune</span>
+<span>Vehicle Fitment Visualizer</span>
+</button>
+</div>
+<!-- Engineering Badges List -->
+<div class="grid grid-cols-3 gap-4 pt-6 border-t border-secondary/15">
+<div>
+<span class="block font-spec-num text-headline-sm font-bold text-on-surface">10,000T</span>
+<span class="font-label-caps-sm text-[10px] uppercase text-secondary">Forging Pressure</span>
+</div>
+<div>
+<span class="block font-spec-num text-headline-sm font-bold text-on-surface">6061-T6</span>
+<span class="font-label-caps-sm text-[10px] uppercase text-secondary">Aero Billet Ingot</span>
+</div>
+<div>
+<span class="block font-spec-num text-headline-sm font-bold text-primary-container">&lt; 8.4 KG</span>
+<span class="font-label-caps-sm text-[10px] uppercase text-secondary">Ultralight Rotary Mass</span>
+</div>
+</div>
+</div>
+<!-- Dynamic Dual-Wheel Hero Staging Area -->
+<div class="lg:col-span-6 relative flex items-center justify-center min-h-[460px]">
+<!-- Precision Reticle & Machined Circles -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="w-[480px] h-[480px] rounded-full border border-secondary/10"></div>
+<div class="w-[360px] h-[360px] rounded-full border border-dashed border-primary-container/20 animate-spin" style="animation-duration: 40s;"></div>
+<div class="w-[200px] h-[200px] rounded-full border border-secondary/15"></div>
+</div>
+<!-- Staged Wheel Display: Dual Flagship Models -->
+<div class="relative w-full max-w-[500px] flex items-center justify-center">
+<!-- Wheel 1: RF-07 Grand Prix Gold Mesh -->
+<div class="relative z-10 w-72 h-72 sm:w-80 sm:h-80 -mr-16 group transition-transform duration-500 hover:scale-105">
+<div class="absolute -inset-4 bg-gradient-to-tr from-amber-500/10 via-transparent to-transparent rounded-full blur-xl"></div>
+<img alt="RF-01 Tactical Series CNC Forged Alloy Wheel" class="w-full h-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA82XSsQes3OoOeJf74zdIvDHYD9taym9GaAY0pVIbQNjcbucHKTvyH3iV_1goNsHFpw8601TC1iAuuo0DXq6dm13I3e9uaioE4FsOS0sPJoTWvMfl6K3dQe32wutb-b-cHBEABpFvD5HLoNz7CDz6_IbmUvBAZqAYafhKu5jbsmwh21hX7vGLItimyGuqXFYAONyhyTP5-tAPt9_J03xwAX7bwnYxLQNTxs_8p7gN1BaOgVIKlKGufy3tg1EezS0X6xYE"/>
+<!-- Floating Spec Pill -->
+<div class="absolute -bottom-2 -left-2 bg-surface-container-high/95 backdrop-blur-md border border-secondary/25 px-3 py-1.5 rounded flex items-center gap-2 shadow-xl">
+<span class="w-2 h-2 rounded-full bg-amber-400"></span>
+<span class="font-label-caps-sm text-[10px] text-on-surface uppercase">RF-01 TAC // 8.2 KG</span>
+</div>
+</div>
+<!-- Wheel 2: RF-09 Duo-Tone Crimson Aero Spec -->
+<div class="relative z-20 w-80 h-80 sm:w-96 sm:h-96 group transition-transform duration-500 hover:scale-105">
+<div class="absolute -inset-4 bg-primary-container/20 rounded-full blur-2xl"></div>
+<img alt="RF-02 Grand Prix Hyper-Machined Wheel" class="w-full h-full object-contain filter drop-shadow-[0_25px_45px_rgba(230,32,32,0.35)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5ddOU1PfSUPZvm9ma4FDOD4Vd9ytWPhqp-vmY3ASSggelnqfr8b2cf4ktYFzIqSG01HUKcG77wBDDPdirZ1lE7rbF0C6U4787yKk3Eu2sA5TZ3OXrNQsBhHc84-Nb4zbiZfUtfZWhPzTRZgnh_Rv7O2NP6S_HfewfzhxYmkkkc-EKsnUCXbL3oPihydUiS7p44juBg0shzdro_HsYAbEGTNRtVsTgBhZg6r2r0KBYsRmgkLNe6-0n3p14bA1l_ggr8WY"/>
+<!-- Floating Spec Ribbon Badges -->
+<div class="absolute top-2 -right-4 bg-surface-container-high/95 backdrop-blur-md border border-primary-container/60 px-3 py-1.5 rounded flex items-center gap-2 shadow-2xl crimson-glow-sm">
+<span class="material-symbols-outlined text-primary-container text-xs" data-icon="verified">verified</span>
+<span class="font-label-caps-sm text-[10px] text-on-surface uppercase">TUV Track Tested</span>
+</div>
+<div class="absolute -bottom-4 right-6 bg-surface-container-high/95 backdrop-blur-md border border-secondary/25 px-3 py-1.5 rounded flex items-center gap-2 shadow-xl">
+<span class="material-symbols-outlined text-secondary text-xs" data-icon="speed">speed</span>
+<span class="font-label-caps-sm text-[10px] text-on-surface uppercase">ET28 Bespoke Offset</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: INTERACTIVE VEHICLE FITMENT FILTER BAR -->
+<section class="relative -mt-8 z-30 max-w-[1440px] mx-auto w-full px-6 lg:px-12" id="fitment-widget">
+<div class="bg-surface-container-low border border-secondary/20 rounded-xl p-5 shadow-2xl backdrop-blur-lg">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-3 min-w-[200px]">
+<div class="w-10 h-10 rounded bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined" data-icon="tune">tune</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm uppercase text-on-surface">Vehicle Fitment</h2>
+<p class="font-label-caps-sm text-[10px] text-secondary">Zero Rubbing Track Guarantee</p>
+</div>
+</div>
+<!-- Selector Cluster -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3 w-full lg:w-auto flex-1 max-w-4xl">
+<!-- Year -->
+<div class="relative">
+<label class="block font-label-caps-sm text-[10px] text-secondary uppercase mb-1">1. Year</label>
+<select class="w-full bg-surface-container-lowest border border-secondary/20 rounded h-11 px-3 text-xs text-on-surface focus:border-primary-container focus:outline-none">
+<option>2025</option>
+<option>2024</option>
+<option selected="">2023</option>
+<option>2022</option>
+</select>
+</div>
+<!-- Make -->
+<div class="relative">
+<label class="block font-label-caps-sm text-[10px] text-secondary uppercase mb-1">2. Make</label>
+<select class="w-full bg-surface-container-lowest border border-secondary/20 rounded h-11 px-3 text-xs text-on-surface focus:border-primary-container focus:outline-none">
+<option selected="">Porsche</option>
+<option>BMW M-Performance</option>
+<option>Audi RS / R8</option>
+<option>Mercedes-AMG</option>
+<option>McLaren</option>
+</select>
+</div>
+<!-- Model -->
+<div class="relative">
+<label class="block font-label-caps-sm text-[10px] text-secondary uppercase mb-1">3. Chassis Model</label>
+<select class="w-full bg-surface-container-lowest border border-secondary/20 rounded h-11 px-3 text-xs text-on-surface focus:border-primary-container focus:outline-none">
+<option selected="">911 (992) GT3 RS</option>
+<option>M4 (G82) Competition</option>
+<option>RS6 Avant C8</option>
+<option>AMG GT-R Pro</option>
+</select>
+</div>
+<!-- Diameter -->
+<div class="relative">
+<label class="block font-label-caps-sm text-[10px] text-secondary uppercase mb-1">4. Diameter</label>
+<div class="flex items-center gap-1 h-11 bg-surface-container-lowest border border-secondary/20 rounded px-2">
+<button class="px-2 py-1 text-[11px] font-spec-num rounded text-secondary hover:text-white">19"</button>
+<button class="px-2 py-1 text-[11px] font-spec-num rounded bg-primary-container text-white font-bold">20"</button>
+<button class="px-2 py-1 text-[11px] font-spec-num rounded text-secondary hover:text-white">21"</button>
+<button class="px-2 py-1 text-[11px] font-spec-num rounded text-secondary hover:text-white">22"</button>
+</div>
+</div>
+</div>
+<!-- Instant Filter Action -->
+<button class="w-full lg:w-auto h-11 px-6 bg-primary-container hover:bg-[#FF2A2A] text-on-primary-container font-label-caps-sm uppercase tracking-widest font-bold rounded flex items-center justify-center gap-2 transition-all crimson-glow-sm active:scale-95 whitespace-nowrap">
+<span class="material-symbols-outlined text-sm" data-icon="search">search</span>
+<span>Find Exact Fitment</span>
+</button>
+</div>
+</div>
+</section>
+<!-- SECTION 4: CURATED WHEEL COLLECTIONS SHOWCASE -->
+<section class="max-w-[1440px] mx-auto w-full px-6 lg:px-12 py-24" id="collections">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="flex items-center gap-2 text-primary-container font-label-caps-sm uppercase tracking-widest mb-1">
+<span class="w-1.5 h-1.5 bg-primary-container rounded-full"></span>
+<span>Aerospace Monoblock Portfolio</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl font-bold uppercase text-on-surface">Curated Forged Series</h2>
+</div>
+<!-- Filter Chips -->
+<div class="flex flex-wrap items-center gap-2">
+<button class="px-4 py-1.5 rounded border border-primary-container bg-surface-container-high text-white font-label-caps-sm uppercase">All Monoblocks</button>
+<button class="px-4 py-1.5 rounded border border-secondary/20 bg-surface-container-lowest text-secondary hover:text-white font-label-caps-sm uppercase transition-colors">Hyper-Concave</button>
+<button class="px-4 py-1.5 rounded border border-secondary/20 bg-surface-container-lowest text-secondary hover:text-white font-label-caps-sm uppercase transition-colors">Aero Modular</button>
+<button class="px-4 py-1.5 rounded border border-secondary/20 bg-surface-container-lowest text-secondary hover:text-white font-label-caps-sm uppercase transition-colors">Track Centerlock</button>
+</div>
+</div>
+<!-- Bento Product Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: RF-07 Grand Prix Gold Mesh -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg p-6 flex flex-col justify-between hover:border-primary-container/60 hover:-translate-y-1 transition-all duration-300 crimson-glow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps-sm text-[10px] text-secondary bg-[#1F2833] px-2.5 py-1 rounded uppercase tracking-wider">6061-T6 Billet</span>
+<span class="text-xs font-spec-num text-primary-container">8.5 kg</span>
+</div>
+<div class="py-6 flex items-center justify-center relative min-h-[220px]">
+<div class="absolute inset-0 bg-radial from-amber-500/10 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="RF-07 Grand Prix Gold Mesh Forged Wheel" class="w-52 h-52 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA82XSsQes3OoOeJf74zdIvDHYD9taym9GaAY0pVIbQNjcbucHKTvyH3iV_1goNsHFpw8601TC1iAuuo0DXq6dm13I3e9uaioE4FsOS0sPJoTWvMfl6K3dQe32wutb-b-cHBEABpFvD5HLoNz7CDz6_IbmUvBAZqAYafhKu5jbsmwh21hX7vGLItimyGuqXFYAONyhyTP5-tAPt9_J03xwAX7bwnYxLQNTxs_8p7gN1BaOgVIKlKGufy3tg1EezS0X6xYE"/>
+</div>
+<div class="space-y-4">
+<div>
+<p class="font-label-caps-sm text-[11px] text-secondary uppercase">Monoblock GT</p>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">RF-07 Grand Prix</h3>
+<p class="font-spec-num text-xs text-secondary mt-1">20x9.5 | 5x112 / 5x120 | ET25-45</p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-secondary/15">
+<div>
+<span class="block font-label-caps-sm text-[9px] text-secondary uppercase">Starting at</span>
+<span class="font-spec-num text-lg font-bold text-on-surface">$1,150 <span class="text-xs font-normal text-secondary">/ wheel</span></span>
+</div>
+<button class="h-10 px-4 bg-surface-container-high hover:bg-primary-container hover:text-white border border-secondary/30 text-on-surface rounded font-label-caps-sm uppercase tracking-wider transition-all duration-200 active:scale-95 flex items-center gap-1.5" onclick="addToCartPreview('RF-07 Grand Prix Gold Mesh', 1150)">
+<span class="material-symbols-outlined text-sm" data-icon="add_shopping_cart">add_shopping_cart</span>
+<span>Select</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2: RF-01 Tactical Matte Off-Road -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg p-6 flex flex-col justify-between hover:border-primary-container/60 hover:-translate-y-1 transition-all duration-300">
+<div class="flex items-center justify-between">
+<span class="font-label-caps-sm text-[10px] text-secondary bg-[#1F2833] px-2.5 py-1 rounded uppercase tracking-wider">Heavy Duty Forged</span>
+<span class="text-xs font-spec-num text-secondary">9.1 kg</span>
+</div>
+<div class="py-6 flex items-center justify-center relative min-h-[220px]">
+<img alt="RF-01 Tactical Matte Off-Road Forged Wheel" class="w-52 h-52 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5ddOU1PfSUPZvm9ma4FDOD4Vd9ytWPhqp-vmY3ASSggelnqfr8b2cf4ktYFzIqSG01HUKcG77wBDDPdirZ1lE7rbF0C6U4787yKk3Eu2sA5TZ3OXrNQsBhHc84-Nb4zbiZfUtfZWhPzTRZgnh_Rv7O2NP6S_HfewfzhxYmkkkc-EKsnUCXbL3oPihydUiS7p44juBg0shzdro_HsYAbEGTNRtVsTgBhZg6r2r0KBYsRmgkLNe6-0n3p14bA1l_ggr8WY"/>
+</div>
+<div class="space-y-4">
+<div>
+<p class="font-label-caps-sm text-[11px] text-secondary uppercase">All-Terrain Tactical</p>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">RF-01 Tactical Spec</h3>
+<p class="font-spec-num text-xs text-secondary mt-1">20x10 | 6x135 / 6x139.7 | ET00-20</p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-secondary/15">
+<div>
+<span class="block font-label-caps-sm text-[9px] text-secondary uppercase">Starting at</span>
+<span class="font-spec-num text-lg font-bold text-on-surface">$890 <span class="text-xs font-normal text-secondary">/ wheel</span></span>
+</div>
+<button class="h-10 px-4 bg-surface-container-high hover:bg-primary-container hover:text-white border border-secondary/30 text-on-surface rounded font-label-caps-sm uppercase tracking-wider transition-all duration-200 active:scale-95 flex items-center gap-1.5" onclick="addToCartPreview('RF-01 Tactical Spec', 890)">
+<span class="material-symbols-outlined text-sm" data-icon="add_shopping_cart">add_shopping_cart</span>
+<span>Select</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3: RF-04 Bronze Hyper-Concave -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg p-6 flex flex-col justify-between hover:border-primary-container/60 hover:-translate-y-1 transition-all duration-300">
+<div class="flex items-center justify-between">
+<span class="font-label-caps-sm text-[10px] text-secondary bg-[#1F2833] px-2.5 py-1 rounded uppercase tracking-wider">Deep Concave</span>
+<span class="text-xs font-spec-num text-primary-container">8.4 kg</span>
+</div>
+<div class="py-6 flex items-center justify-center relative min-h-[220px]">
+<img alt="RF-04 Bronze Hyper-Concave Alloy Wheel" class="w-52 h-52 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq2icgygXGWDv5Xs2b7HwsQpIE0Jts2pmS3W7ef69ZA5QAatlmHkPoiXEtChF_rHXD2tnsG8cOMltGU0wdz9SdrYCKuRVkFRpoZrGnxprxjbIFtTQJP9t9E1KK2cQ2FFDlxkdNTbrOapgZasM42s8q3VvrdHzU07j7nVcvcdq6Gq0ku0gOVMCRJ2GRrrVByHfaYAbx7d-m5rqAMnJymAOGTtPzFp258R7vX5fn-T7OKsU3FokFLBfOrXFWv4Fi0rPSQmc"/>
+</div>
+<div class="space-y-4">
+<div>
+<p class="font-label-caps-sm text-[11px] text-secondary uppercase">Track Weapon</p>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">RF-04 Hyper-Concave</h3>
+<p class="font-spec-num text-xs text-secondary mt-1">21x10.5 | 5x114.3 / 5x112 | ET18-35</p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-secondary/15">
+<div>
+<span class="block font-label-caps-sm text-[9px] text-secondary uppercase">Starting at</span>
+<span class="font-spec-num text-lg font-bold text-on-surface">$1,280 <span class="text-xs font-normal text-secondary">/ wheel</span></span>
+</div>
+<button class="h-10 px-4 bg-surface-container-high hover:bg-primary-container hover:text-white border border-secondary/30 text-on-surface rounded font-label-caps-sm uppercase tracking-wider transition-all duration-200 active:scale-95 flex items-center gap-1.5" onclick="addToCartPreview('RF-04 Hyper-Concave', 1280)">
+<span class="material-symbols-outlined text-sm" data-icon="add_shopping_cart">add_shopping_cart</span>
+<span>Select</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 4: RF-09 Crimson Duo-Tone Aero -->
+<div class="group relative bg-[#12141A] border border-primary-container/40 rounded-lg p-6 flex flex-col justify-between hover:border-primary-container hover:-translate-y-1 transition-all duration-300 crimson-glow">
+<div class="flex items-center justify-between">
+<span class="font-label-caps-sm text-[10px] text-white bg-primary-container px-2.5 py-1 rounded uppercase tracking-wider">Flagship Aero</span>
+<span class="text-xs font-spec-num text-primary-container font-bold">7.9 kg</span>
+</div>
+<div class="py-6 flex items-center justify-center relative min-h-[220px]">
+<img alt="RF-09 Crimson Duo-Tone Aero Forged Wheel" class="w-52 h-52 object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3GP8NKgK92AVQIRKBEaoOsu5-M2Zeoq9g8ayEhdOZU746qq2JLV54hvQYiJQ2LyjY15x6BdgDkjmg8GFpGZ3KHjs3yGdN7ze9mMzy8WxxGqfZFZMeWJVaUohTKTB6NyVnLYVogB8gSnx3G_O4HKfmcgQ166NzyG_tkdZFa8sKdpQQxX81pk1QmAM6CRIRpLlRv8wvag4Zx8RKv1LjFb9PPROfndE19UdMyXhNyQDECGMOd-9qEwBgd1KjsGrvbILg8pE"/>
+</div>
+<div class="space-y-4">
+<div>
+<p class="font-label-caps-sm text-[11px] text-primary-container uppercase font-bold">Aero Carbon Hybrid</p>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">RF-09 Crimson Aero</h3>
+<p class="font-spec-num text-xs text-secondary mt-1">21x11 | 5x130 / Centerlock | ET38</p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-secondary/15">
+<div>
+<span class="block font-label-caps-sm text-[9px] text-secondary uppercase">Starting at</span>
+<span class="font-spec-num text-lg font-bold text-primary-container">$1,420 <span class="text-xs font-normal text-secondary">/ wheel</span></span>
+</div>
+<button class="h-10 px-4 bg-primary-container hover:bg-[#FF2A2A] text-white rounded font-label-caps-sm uppercase tracking-wider transition-all duration-200 active:scale-95 flex items-center gap-1.5 shadow-lg" onclick="addToCartPreview('RF-09 Crimson Aero', 1420)">
+<span class="material-symbols-outlined text-sm" data-icon="add_shopping_cart">add_shopping_cart</span>
+<span>Select</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: ENGINEERING & CRAFTSMANSHIP DEEP DIVE -->
+<section class="relative py-24 bg-surface-container-lowest border-y border-secondary/15" id="forged-series">
+<div class="max-w-[1440px] mx-auto w-full px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<!-- Left: Engineering Schematic Diagram Staging -->
+<div class="lg:col-span-6 relative">
+<div class="relative bg-surface-container-low border border-secondary/25 rounded-xl p-8 overflow-hidden">
+<!-- Machined Technical Grid Lines -->
+<div class="absolute inset-0 carbon-mesh opacity-40"></div>
+<div class="absolute top-4 right-4 font-mono text-[10px] text-secondary tracking-widest">
+              CNC_TOLERANCE // ±0.02MM
+            </div>
+<div class="relative z-10 space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded bg-surface-container-high border border-outline/30 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="precision_manufacturing">precision_manufacturing</span>
+</div>
+<div>
+<span class="font-label-caps-sm text-[10px] text-primary-container uppercase">5-Axis CNC Milling</span>
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface">Structural Anatomy &amp; Stress Flow</h4>
+</div>
+</div>
+<!-- Technical Highlight Box -->
+<div class="bg-surface-container-lowest border border-secondary/15 p-5 rounded">
+<div class="grid grid-cols-2 gap-4 text-xs font-mono">
+<div class="border-l-2 border-primary-container pl-3">
+<span class="text-secondary block">FORGING FORCE</span>
+<span class="text-on-surface font-bold text-sm">10,000 METRIC TONS</span>
+</div>
+<div class="border-l-2 border-secondary pl-3">
+<span class="text-secondary block">GRAIN DIRECTION</span>
+<span class="text-on-surface font-bold text-sm">CONTINUOUS RADIAL</span>
+</div>
+<div class="border-l-2 border-secondary pl-3">
+<span class="text-secondary block">ALLOY TEMPER</span>
+<span class="text-on-surface font-bold text-sm">6061-T6 AEROSPACE</span>
+</div>
+<div class="border-l-2 border-primary-container pl-3">
+<span class="text-secondary block">WEIGHT SAVING</span>
+<span class="text-primary-container font-bold text-sm">-32% ROTARY MASS</span>
+</div>
+</div>
+</div>
+<!-- Wheel Cutaway / Studio Presentation -->
+<div class="flex justify-center pt-2">
+<img alt="CNC Machined Forged Alloy Wheel Cutaway Detail" class="w-64 h-64 object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.9)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPM24m6nVXfjRa78YHXWUar-l-YLXGosZPRkHNKxupA70NWZA0uHq6zKHpUhU8mD71sXpD7mWiRNn7NagR1Sei22xcbs3_TGPM77pADmUl2doMnZV3Y3oB6RL3IDJAFV1LkF0zLT6Sg75oTFWNBY30Ebq0WAX6NuF3M5btHQM4_7yHjz43sU6pg9syUQCAR7csVuCThRzP0q0emHamF0Xuzc-CDcaDP97gPxuOOulUbBI9fayg_svOsC8liEJ7l09Uwg0"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: CNC Deep-Dive Editorial Breakdown -->
+<div class="lg:col-span-6 flex flex-col gap-8">
+<div>
+<span class="font-label-caps-sm text-primary-container uppercase tracking-widest">Aero-Engineering Standards</span>
+<h2 class="font-headline-xl text-headline-xl font-bold uppercase text-on-surface mt-1">
+              Engineered Beyond <br/>Conventional Limits.
+            </h2>
+<p class="font-body-md text-secondary mt-3 leading-relaxed">
+              Every Rimforce wheel begins as an unyielding solid cylindrical billet of aerospace-grade 6061-T6 aluminum. Under a staggering 10,000 tons of hydraulic pressure, the aluminum grain structure is compressed and aligned radially, eliminating all micro-porosity.
+            </p>
+</div>
+<div class="space-y-6">
+<!-- Point 1 -->
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-primary-container/40 flex items-center justify-center text-primary-container font-bold font-spec-num text-xs shrink-0 mt-0.5">
+                01
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-base">Finite Element Analysis (FEA)</h4>
+<p class="font-body-sm text-secondary text-sm mt-1">Simulated cornering loads up to 3.2G track G-forces to optimize spoke pocketing and reduce unsprung inertia without sacrificing rigidity.</p>
+</div>
+</div>
+<!-- Point 2 -->
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-primary-container/40 flex items-center justify-center text-primary-container font-bold font-spec-num text-xs shrink-0 mt-0.5">
+                02
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-base">High-Speed 5-Axis CNC Precision</h4>
+<p class="font-body-sm text-secondary text-sm mt-1">Milled with diamond carbide tooling down to micron tolerances (±0.02mm), ensuring track-true radial and lateral runout precision.</p>
+</div>
+</div>
+<!-- Point 3 -->
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-primary-container/40 flex items-center justify-center text-primary-container font-bold font-spec-num text-xs shrink-0 mt-0.5">
+                03
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-base">Full TUV Rheinland &amp; JWL Tested</h4>
+<p class="font-body-sm text-secondary text-sm mt-1">Certified for German Autobahn and Nürburgring Nordschleife duty with 1,000,000 cycle dynamic radial fatigue torture trials.</p>
+</div>
+</div>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-3 font-label-caps-lg text-primary-container uppercase tracking-wider hover:underline group" href="#bespoke-build">
+<span>Commission Bespoke Centerlock Spec</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: BESPOKE FINISHES & CUSTOMER RIDE GALLERY -->
+<section class="max-w-[1440px] mx-auto w-full px-6 lg:px-12 py-24">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-caps-sm text-primary-container uppercase tracking-widest">Real Stance // Real Track Times</span>
+<h2 class="font-headline-xl text-headline-xl font-bold uppercase text-on-surface">Client Showcase &amp; Custom Builds</h2>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-caps-sm text-secondary uppercase text-xs">Filter Platform:</span>
+<span class="px-3 py-1 bg-surface-container-high rounded text-xs text-white border border-secondary/20">All Hypercars</span>
+</div>
+</div>
+<!-- Gallery Grid featuring Wheels on Spec -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Ride 1 -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg overflow-hidden flex flex-col">
+<div class="relative h-64 bg-surface-container-lowest flex items-center justify-center p-6 overflow-hidden">
+<img alt="Rimforce RF-07 installed on Porsche GT3" class="w-48 h-48 object-contain group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA82XSsQes3OoOeJf74zdIvDHYD9taym9GaAY0pVIbQNjcbucHKTvyH3iV_1goNsHFpw8601TC1iAuuo0DXq6dm13I3e9uaioE4FsOS0sPJoTWvMfl6K3dQe32wutb-b-cHBEABpFvD5HLoNz7CDz6_IbmUvBAZqAYafhKu5jbsmwh21hX7vGLItimyGuqXFYAONyhyTP5-tAPt9_J03xwAX7bwnYxLQNTxs_8p7gN1BaOgVIKlKGufy3tg1EezS0X6xYE"/>
+<div class="absolute top-3 left-3 bg-surface-container-high/90 backdrop-blur px-2.5 py-1 rounded border border-secondary/20">
+<span class="font-label-caps-sm text-[9px] text-white uppercase">Porsche 911 GT3 (992)</span>
+</div>
+</div>
+<div class="p-5 border-t border-secondary/15 flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="font-headline-sm text-sm font-bold text-on-surface uppercase">RF-07 Grand Prix</span>
+<span class="font-label-caps-sm text-primary-container text-[11px] uppercase">Gloss Monaco Gold</span>
+</div>
+<p class="font-body-sm text-secondary text-xs">Front: 20x9.5 ET42 | Rear: 21x12.5 ET38</p>
+</div>
+</div>
+<!-- Ride 2 -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg overflow-hidden flex flex-col">
+<div class="relative h-64 bg-surface-container-lowest flex items-center justify-center p-6 overflow-hidden">
+<img alt="Rimforce Tactical installed on BMW M4" class="w-48 h-48 object-contain group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5ddOU1PfSUPZvm9ma4FDOD4Vd9ytWPhqp-vmY3ASSggelnqfr8b2cf4ktYFzIqSG01HUKcG77wBDDPdirZ1lE7rbF0C6U4787yKk3Eu2sA5TZ3OXrNQsBhHc84-Nb4zbiZfUtfZWhPzTRZgnh_Rv7O2NP6S_HfewfzhxYmkkkc-EKsnUCXbL3oPihydUiS7p44juBg0shzdro_HsYAbEGTNRtVsTgBhZg6r2r0KBYsRmgkLNe6-0n3p14bA1l_ggr8WY"/>
+<div class="absolute top-3 left-3 bg-surface-container-high/90 backdrop-blur px-2.5 py-1 rounded border border-secondary/20">
+<span class="font-label-caps-sm text-[9px] text-white uppercase">BMW M4 Competition (G82)</span>
+</div>
+</div>
+<div class="p-5 border-t border-secondary/15 flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="font-headline-sm text-sm font-bold text-on-surface uppercase">RF-01 Tactical Series</span>
+<span class="font-label-caps-sm text-primary-container text-[11px] uppercase">Brushed Stealth Titanium</span>
+</div>
+<p class="font-body-sm text-secondary text-xs">Front: 20x10.0 ET14 | Rear: 21x11.0 ET12</p>
+</div>
+</div>
+<!-- Ride 3 -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg overflow-hidden flex flex-col">
+<div class="relative h-64 bg-surface-container-lowest flex items-center justify-center p-6 overflow-hidden">
+<img alt="Rimforce RF-04 installed on Audi RS6 Avant" class="w-48 h-48 object-contain group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq2icgygXGWDv5Xs2b7HwsQpIE0Jts2pmS3W7ef69ZA5QAatlmHkPoiXEtChF_rHXD2tnsG8cOMltGU0wdz9SdrYCKuRVkFRpoZrGnxprxjbIFtTQJP9t9E1KK2cQ2FFDlxkdNTbrOapgZasM42s8q3VvrdHzU07j7nVcvcdq6Gq0ku0gOVMCRJ2GRrrVByHfaYAbx7d-m5rqAMnJymAOGTtPzFp258R7vX5fn-T7OKsU3FokFLBfOrXFWv4Fi0rPSQmc"/>
+<div class="absolute top-3 left-3 bg-surface-container-high/90 backdrop-blur px-2.5 py-1 rounded border border-secondary/20">
+<span class="font-label-caps-sm text-[9px] text-white uppercase">Audi RS6 Avant (C8)</span>
+</div>
+</div>
+<div class="p-5 border-t border-secondary/15 flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="font-headline-sm text-sm font-bold text-on-surface uppercase">RF-04 Hyper-Concave</span>
+<span class="font-label-caps-sm text-primary-container text-[11px] uppercase">Raw Brushed Ceramic Bronze</span>
+</div>
+<p class="font-body-sm text-secondary text-xs">Square Stance: 22x10.5 ET19 All Corners</p>
+</div>
+</div>
+<!-- Ride 4 -->
+<div class="group relative bg-[#12141A] border border-secondary/15 rounded-lg overflow-hidden flex flex-col">
+<div class="relative h-64 bg-surface-container-lowest flex items-center justify-center p-6 overflow-hidden">
+<img alt="Rimforce RF-09 installed on Mercedes-AMG G63" class="w-48 h-48 object-contain group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3GP8NKgK92AVQIRKBEaoOsu5-M2Zeoq9g8ayEhdOZU746qq2JLV54hvQYiJQ2LyjY15x6BdgDkjmg8GFpGZ3KHjs3yGdN7ze9mMzy8WxxGqfZFZMeWJVaUohTKTB6NyVnLYVogB8gSnx3G_O4HKfmcgQ166NzyG_tkdZFa8sKdpQQxX81pk1QmAM6CRIRpLlRv8wvag4Zx8RKv1LjFb9PPROfndE19UdMyXhNyQDECGMOd-9qEwBgd1KjsGrvbILg8pE"/>
+<div class="absolute top-3 left-3 bg-surface-container-high/90 backdrop-blur px-2.5 py-1 rounded border border-secondary/20">
+<span class="font-label-caps-sm text-[9px] text-white uppercase">Mercedes-AMG G63 (W463A)</span>
+</div>
+</div>
+<div class="p-5 border-t border-secondary/15 flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="font-headline-sm text-sm font-bold text-on-surface uppercase">RF-09 Crimson Aero</span>
+<span class="font-label-caps-sm text-primary-container text-[11px] uppercase">Crimson Red Anodized</span>
+</div>
+<p class="font-body-sm text-secondary text-xs">Staggered: 22x11.5 ET25 Aggressive Stance</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: SLIDE-OUT CART DRAWER & LIVE CHECKOUT CONFIRMATION (Toggleable & Docked preview) -->
+<div class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 transition-opacity duration-300 pointer-events-none opacity-0 flex justify-end" id="cart-drawer-overlay">
+<!-- Chassis Panel -->
+<div class="w-full max-w-md bg-[#0B0C10] border-l border-secondary/20 h-full flex flex-col shadow-2xl transform translate-x-full transition-transform duration-300" id="cart-drawer-panel">
+<!-- Header -->
+<div class="p-6 border-b border-secondary/15 flex items-center justify-between bg-surface-container-low">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container" data-icon="shopping_bag">shopping_bag</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Bespoke Build Cart</h3>
+<p class="font-label-caps-sm text-[10px] text-secondary uppercase">2 Active Forged Configurations</p>
+</div>
+</div>
+<button class="text-secondary hover:text-white p-1" onclick="toggleCartDrawer()">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</div>
+<!-- Verified Fitment Validator Badge -->
+<div class="mx-6 mt-4 p-3 bg-surface-container-high/60 border border-primary-container/30 rounded flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container text-lg" data-icon="check_circle">check_circle</span>
+<div>
+<span class="block font-label-caps-sm text-[10px] text-white uppercase font-bold">Guaranteed Track Fitment Verified</span>
+<span class="block font-mono text-[10px] text-secondary">Chassis: Porsche 911 GT3 (992) // 5x130 ET38</span>
+</div>
+</div>
+<!-- Items List -->
+<div class="flex-1 overflow-y-auto p-6 space-y-4">
+<!-- Item 1 -->
+<div class="bg-surface-container-low border border-secondary/15 rounded p-4 flex gap-4 items-center">
+<img alt="RF-09 Crimson Aero" class="w-16 h-16 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3GP8NKgK92AVQIRKBEaoOsu5-M2Zeoq9g8ayEhdOZU746qq2JLV54hvQYiJQ2LyjY15x6BdgDkjmg8GFpGZ3KHjs3yGdN7ze9mMzy8WxxGqfZFZMeWJVaUohTKTB6NyVnLYVogB8gSnx3G_O4HKfmcgQ166NzyG_tkdZFa8sKdpQQxX81pk1QmAM6CRIRpLlRv8wvag4Zx8RKv1LjFb9PPROfndE19UdMyXhNyQDECGMOd-9qEwBgd1KjsGrvbILg8pE"/>
+<div class="flex-1">
+<div class="flex justify-between items-start">
+<h4 class="font-headline-sm text-xs uppercase font-bold text-white">4x RF-09 Crimson Aero</h4>
+<button class="text-secondary hover:text-primary-container text-xs">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span>
+</button>
+</div>
+<p class="font-mono text-[11px] text-secondary">21x10.5 | 5x130 | Centerlock Hub</p>
+<div class="flex justify-between items-center mt-2">
+<span class="font-label-caps-sm text-[10px] text-primary-container uppercase font-bold">In Production</span>
+<span class="font-spec-num text-sm font-bold text-white">$5,680</span>
+</div>
+</div>
+</div>
+<!-- Unsprung Mass Calculator Card -->
+<div class="bg-surface-container-highest/40 border border-secondary/15 rounded p-3 text-xs space-y-1">
+<div class="flex justify-between text-secondary">
+<span>OEM Wheel Set Mass:</span>
+<span class="font-mono">49.6 kg</span>
+</div>
+<div class="flex justify-between text-primary-container font-bold">
+<span>Rimforce Forged Set Mass:</span>
+<span class="font-mono">31.6 kg</span>
+</div>
+<div class="pt-1 border-t border-secondary/10 flex justify-between text-white font-bold text-[11px]">
+<span>Net Unsprung Weight Saved:</span>
+<span class="text-primary-container font-mono">-18.0 kg (-36%)</span>
+</div>
+</div>
+<!-- Complimentary Gift -->
+<div class="bg-primary-container/10 border border-primary-container/20 rounded p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container" data-icon="redeem">redeem</span>
+<div class="text-xs">
+<span class="text-white font-bold block">Complimentary CNC Titanium Hardware</span>
+<span class="text-secondary text-[11px]">Set of 20 Grade-5 Titanium Lug Nuts Included</span>
+</div>
+</div>
+</div>
+<!-- Footer / Order Call To Action -->
+<div class="p-6 border-t border-secondary/15 bg-surface-container-low space-y-4">
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs text-secondary">
+<span>Subtotal (Set of 4)</span>
+<span class="font-spec-num text-white">$5,680</span>
+</div>
+<div class="flex justify-between text-xs text-secondary">
+<span>Precision Dynamic Balancing</span>
+<span class="text-primary-container uppercase font-mono text-[11px]">Complimentary</span>
+</div>
+<div class="flex justify-between text-sm font-bold text-white pt-2 border-t border-secondary/15">
+<span>Total Estimated</span>
+<span class="font-spec-num text-primary-container text-lg">$5,680</span>
+</div>
+</div>
+<button class="w-full bg-primary-container hover:bg-[#FF2A2A] text-on-primary-container py-3.5 rounded font-label-caps-lg uppercase font-bold tracking-widest crimson-glow flex items-center justify-center gap-2 transition-all active:scale-95">
+<span>Proceed to Bespoke Checkout</span>
+<span class="material-symbols-outlined text-base" data-icon="lock">lock</span>
+</button>
+<p class="text-center font-label-caps-sm text-[10px] text-secondary uppercase">Estimated Precision CNC Machining: 14 Business Days</p>
+</div>
+</div>
+</div>
+</main>
+<!-- LUXURY FOOTER (Shared Components Token Faithful) -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 relative bottom-0">
+<div class="w-full px-6 lg:px-12 py-16 max-w-[1440px] mx-auto flex flex-col gap-12">
+<!-- Top Row: Brand & Newsletter Concierge -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+<!-- Col 1 & 2: Brand Identity -->
+<div class="lg:col-span-2 flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-outline/30 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-xl" data-icon="trip_origin">trip_origin</span>
+</div>
+<span class="font-display-hero text-headline-md font-extrabold uppercase tracking-tight text-on-surface dark:text-on-surface">RIMFORCE</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary max-w-sm">
+            Forged in the fires of aerospace-grade CNC engineering. Setting the worldwide benchmark for unsprung track mass, concavity aesthetics, and mechanical strength.
+          </p>
+<div class="flex items-center gap-3 text-secondary pt-2">
+<span class="text-xs uppercase font-label-caps-sm">Engineering Quality:</span>
+<span class="px-2 py-0.5 bg-surface-container-high rounded text-[10px] font-mono text-white border border-secondary/20">TÜV RHEINLAND</span>
+<span class="px-2 py-0.5 bg-surface-container-high rounded text-[10px] font-mono text-white border border-secondary/20">JWL-VIA</span>
+</div>
+</div>
+<!-- Col 3: Forged Dynamics Links -->
+<div class="flex flex-col gap-3">
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-sm font-bold">Engineering</h4>
+<ul class="flex flex-col gap-2">
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Forged Dynamics</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Track Fitment Guarantee</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">TUV Certification</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Aerospace Alloys</a></li>
+</ul>
+</div>
+<!-- Col 4: Support & Warranty -->
+<div class="flex flex-col gap-3">
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-sm font-bold">Concierge</h4>
+<ul class="flex flex-col gap-2">
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Warranty &amp; Care</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Bespoke Inquiries</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Privacy Policy</a></li>
+<li><a class="text-secondary dark:text-secondary font-label-caps-sm uppercase hover:text-on-surface transition-colors hover:text-primary-container" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<!-- Col 5: VIP Drops Newsletter -->
+<div class="flex flex-col gap-3">
+<h4 class="font-headline-sm text-headline-sm uppercase text-on-surface text-sm font-bold">Bespoke Drops</h4>
+<p class="font-body-sm text-xs text-secondary">Subscribe to receive allocation alerts for limited centerlock batch runs.</p>
+<div class="flex flex-col gap-2 mt-1">
+<input class="w-full bg-surface-container-low border border-secondary/20 rounded h-10 px-3 text-xs text-on-surface focus:outline-none focus:border-primary-container" placeholder="concierge@hypercar.com" type="email"/>
+<button class="w-full bg-surface-container-high hover:bg-primary-container hover:text-white border border-secondary/30 text-on-surface h-10 rounded font-label-caps-sm uppercase font-bold tracking-widest transition-all">
+              Request Allocation
+            </button>
+</div>
+</div>
+</div>
+<!-- Bottom Bar: Copyright & Disclaimers -->
+<div class="pt-8 border-t border-secondary/10 flex flex-col md:flex-row items-center justify-between gap-4">
+<p class="font-label-caps-sm text-[11px] text-secondary uppercase tracking-widest text-center md:text-left">
+          © 2025 RIMFORCE ALLOY WHEELS. PRECISION CNC ENGINEERING. ALL RIGHTS RESERVED.
+        </p>
+<div class="flex items-center gap-6">
+<span class="font-mono text-[10px] text-secondary">DESIGNED &amp; ENGINEERED IN GERMANY // FORGED IN USA</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- Light Vanilla Script for Cart Drawer Interactions -->
+<script>
+    function toggleCartDrawer() {
+      const overlay = document.getElementById('cart-drawer-overlay');
+      const panel = document.getElementById('cart-drawer-panel');
+      
+      const isOpen = !overlay.classList.contains('opacity-0');
+      
+      if (isOpen) {
+        panel.classList.add('translate-x-full');
+        overlay.classList.add('opacity-0');
+        overlay.classList.add('pointer-events-none');
+      } else {
+        overlay.classList.remove('pointer-events-none');
+        overlay.classList.remove('opacity-0');
+        panel.classList.remove('translate-x-full');
+      }
+    }
+
+    function addToCartPreview(model, price) {
+      toggleCartDrawer();
+    }
+  </script>
+</body></html>
