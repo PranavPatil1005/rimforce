@@ -105,7 +105,7 @@ export const ContactView: React.FC = () => {
           <div className="flex flex-wrap items-center gap-3">
             <a
               className="flex items-center gap-2.5 px-4 py-2.5 bg-[#1a1b20] border border-[#c5c6c7]/20 hover:border-[#e62020] text-[#e3e2e8] hover:text-[#e62020] transition-all group rounded-lg"
-              href="tel:+912044109200"
+              href="tel:+919588435668"
             >
               <span className="material-symbols-outlined text-[18px] text-[#e62020]">call</span>
               <div className="flex flex-col text-left">
@@ -113,14 +113,14 @@ export const ContactView: React.FC = () => {
                   Pune HQ &amp; Lab
                 </span>
                 <span className="font-mono text-sm font-semibold text-[#e3e2e8] group-hover:text-[#e62020]">
-                  +91 20 4410 9200
+                  +91 95884 35668
                 </span>
               </div>
             </a>
 
             <a
               className="flex items-center gap-2.5 px-4 py-2.5 bg-[#1a1b20] border border-[#c5c6c7]/20 hover:border-[#e62020] text-[#e3e2e8] hover:text-[#e62020] transition-all group rounded-lg"
-              href="mailto:contact@rimforcewheels.in"
+              href="mailto:rohandpatil420@gmail.com"
             >
               <span className="material-symbols-outlined text-[18px] text-[#e62020]">mail</span>
               <div className="flex flex-col text-left">
@@ -128,7 +128,7 @@ export const ContactView: React.FC = () => {
                   Technical Support
                 </span>
                 <span className="font-mono text-sm font-semibold text-[#e3e2e8] group-hover:text-[#e62020]">
-                  contact@rimforcewheels.in
+                  rohandpatil420@gmail.com
                 </span>
               </div>
             </a>
@@ -398,14 +398,14 @@ export const ContactView: React.FC = () => {
                 </div>
                 <div className="flex justify-between text-[#c5c6c7]">
                   <span>Direct Dispatch:</span>
-                  <a className="text-[#e62020] hover:underline" href="mailto:ops@rimforcewheels.in">
-                    ops@rimforcewheels.in
+                  <a className="text-[#e62020] hover:underline" href="mailto:rohandpatil420@gmail.com">
+                    rohandpatil420@gmail.com
                   </a>
                 </div>
               </div>
               <a
                 className="inline-flex items-center gap-2 text-[#e3e2e8] hover:text-[#e62020] font-['Montserrat'] text-[11px] font-bold uppercase tracking-wider transition-colors"
-                href="https://wa.me/912044109200"
+                href="https://wa.me/919588435668"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -431,7 +431,7 @@ export const ContactView: React.FC = () => {
                 Are you a performance workshop or tuning studio in India? Apply for wholesale allocations, dealer offsets, and priority batch milling.
               </p>
               <a
-                href="mailto:dealers@rimforcewheels.in"
+                href="mailto:rohandpatil420@gmail.com"
                 className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] text-[#e3e2e8] text-[11px] font-['Montserrat'] font-bold uppercase tracking-wider transition-colors rounded"
               >
                 <span>Inquire for Partner Tier</span>
@@ -487,7 +487,7 @@ export const ContactView: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-[#c5c6c7]/15 font-mono text-xs text-[#c5c6c7]">
                   <div>
                     <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Telephone Hotline</span>
-                    <span className="text-white font-bold text-sm">{centralBranch.phone}</span>
+                    <span className="text-white font-bold text-sm">+91 9588435668</span>
                   </div>
                   <div>
                     <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Hours of Operation</span>
@@ -506,7 +506,7 @@ export const ContactView: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/912044109200"
+                  href="https://wa.me/919588435668"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-3.5 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] hover:bg-[#292a2e] text-[#e3e2e8] text-center font-['Montserrat'] text-xs font-bold uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-2"

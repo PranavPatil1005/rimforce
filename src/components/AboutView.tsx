@@ -161,7 +161,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSelectTab }) => {
             <div className="pt-3 border-t border-[#c5c6c7]/15 text-xs font-mono grid grid-cols-1 sm:grid-cols-3 gap-3 text-[#c5c6c7]">
               <div>
                 <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Phone:</span>
-                <span className="text-white font-semibold">{centralBranch.phone}</span>
+                <span className="text-white font-semibold">+91 9588435668</span>
               </div>
               <div>
                 <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Hours:</span>

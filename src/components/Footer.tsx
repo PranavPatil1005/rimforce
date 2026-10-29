@@ -85,7 +85,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
               </div>
               <div className="pt-1">
                 <span className="text-[#c5c6c7] block">Phone:</span>
-                <span className="text-white font-mono font-semibold">+91 20 4410 9200</span>
+                <span className="text-white font-mono font-semibold">+91 9588435668</span>
               </div>
             </div>
           </div>
