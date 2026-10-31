@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { INDIAN_ATELIERS } from '../data/wheels';
+import { TEAM_CONTACTS } from '../data/wheels';
 
 export const ContactView: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -72,9 +72,6 @@ export const ContactView: React.FC = () => {
     });
   };
 
-  // Single official branch in Talegaon, Pune, Maharashtra
-  const centralBranch = INDIAN_ATELIERS[0];
-
   return (
     <div className="flex-1 w-full bg-tech-grid relative text-[#e3e2e8]">
       {/* Red Ambient Glow */}
@@ -101,44 +98,51 @@ export const ContactView: React.FC = () => {
             Have questions about standard fitment, custom offsets, order dispatch, or dealership distribution? Our technical advisors and customer relations team at our Talegaon, Pune headquarters are here to assist.
           </p>
 
-          {/* Quick Contact Pills - Single Branch (Talegaon, Pune, Maharashtra) */}
-          <div className="flex flex-wrap items-center gap-3">
-            <a
-              className="flex items-center gap-2.5 px-4 py-2.5 bg-[#1a1b20] border border-[#c5c6c7]/20 hover:border-[#e62020] text-[#e3e2e8] hover:text-[#e62020] transition-all group rounded-lg"
-              href="tel:+919588435668"
-            >
-              <span className="material-symbols-outlined text-[18px] text-[#e62020]">call</span>
-              <div className="flex flex-col text-left">
-                <span className="font-['Montserrat'] text-[11px] font-bold text-[#c5c6c7] uppercase">
-                  Pune HQ &amp; Lab
-                </span>
-                <span className="font-mono text-sm font-semibold text-[#e3e2e8] group-hover:text-[#e62020]">
-                  +91 95884 35668
-                </span>
-              </div>
-            </a>
+          {/* Quick Contact Pills - All Specialists & Pune Engineering Desk */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mb-4">
+            {TEAM_CONTACTS.map((contact) => (
+              <div
+                key={contact.id}
+                className="p-3.5 bg-[#1a1b20] border border-[#c5c6c7]/20 hover:border-[#e62020] rounded-lg transition-all group flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="font-['Montserrat'] text-[11px] font-bold text-white uppercase">
+                      {contact.name}
+                    </span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  </div>
+                  <span className="font-['Inter'] text-[10px] text-[#c5c6c7] block mb-2 leading-tight">
+                    {contact.role}
+                  </span>
+                </div>
 
-            <a
-              className="flex items-center gap-2.5 px-4 py-2.5 bg-[#1a1b20] border border-[#c5c6c7]/20 hover:border-[#e62020] text-[#e3e2e8] hover:text-[#e62020] transition-all group rounded-lg"
-              href="mailto:rohandpatil420@gmail.com"
-            >
-              <span className="material-symbols-outlined text-[18px] text-[#e62020]">mail</span>
-              <div className="flex flex-col text-left">
-                <span className="font-['Montserrat'] text-[11px] font-bold text-[#c5c6c7] uppercase">
-                  Technical Support
-                </span>
-                <span className="font-mono text-sm font-semibold text-[#e3e2e8] group-hover:text-[#e62020]">
-                  rohandpatil420@gmail.com
-                </span>
+                <div className="pt-2 border-t border-[#c5c6c7]/10 flex flex-col gap-1.5 font-mono text-xs">
+                  <a
+                    href={`tel:${contact.phone}`}
+                    className="flex items-center gap-2 text-white hover:text-[#e62020] transition-colors"
+                  >
+                    <span className="material-symbols-outlined text-[15px] text-[#e62020]">call</span>
+                    <span className="font-semibold">{contact.displayPhone}</span>
+                  </a>
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="flex items-center gap-2 text-[#c5c6c7] hover:text-[#e62020] transition-colors truncate text-[11px]"
+                    title={contact.email}
+                  >
+                    <span className="material-symbols-outlined text-[15px] text-[#e62020]">mail</span>
+                    <span className="truncate">{contact.email}</span>
+                  </a>
+                </div>
               </div>
-            </a>
+            ))}
+          </div>
 
-            <div className="flex items-center gap-2 px-3 py-2 bg-[#1f1f24] border border-[#c5c6c7]/15 rounded-lg text-[#c5c6c7] text-xs font-mono sm:ml-auto">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span className="font-['Montserrat'] text-[11px] font-bold uppercase">
-                Talegaon, Pune Desk: Online (IST)
-              </span>
-            </div>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#1f1f24] border border-[#c5c6c7]/15 rounded-md text-[#c5c6c7] text-xs font-mono">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="font-['Montserrat'] text-[10px] font-bold uppercase">
+              Talegaon, Pune Central Engineering Hub // Online Mon–Sat 09:00 – 19:30 IST
+            </span>
           </div>
         </section>
 
@@ -385,34 +389,34 @@ export const ContactView: React.FC = () => {
                   ACTIVE CNC QUEUE
                 </span>
               </div>
-              <h3 className="font-['Montserrat'] text-lg font-semibold uppercase text-[#e3e2e8] mb-1">
-                Customer Care &amp; Order Tracking
+              <h3 className="font-['Montserrat'] text-base font-semibold uppercase text-[#e3e2e8] mb-1">
+                WhatsApp Concierge
               </h3>
-              <p className="font-['Inter'] text-xs text-[#c5c6c7] mb-4">
-                Track your active CNC milling status, heat treatment, and multi-stage powder coat curing directly with our Talegaon, Pune dispatch desk.
+              <p className="font-['Inter'] text-xs text-[#c5c6c7] mb-3">
+                Chat directly with our machining and fitment team on WhatsApp for prompt response.
               </p>
-              <div className="space-y-2 py-3 border-t border-b border-[#c5c6c7]/15 text-xs font-mono mb-4">
-                <div className="flex justify-between text-[#c5c6c7]">
-                  <span>Operating Hours:</span>
-                  <span className="text-[#e3e2e8] font-bold">Mon–Sat 09:00 – 19:30 IST</span>
-                </div>
-                <div className="flex justify-between text-[#c5c6c7]">
-                  <span>Direct Dispatch:</span>
-                  <a className="text-[#e62020] hover:underline" href="mailto:rohandpatil420@gmail.com">
-                    rohandpatil420@gmail.com
-                  </a>
-                </div>
+              <div className="flex flex-col gap-2">
+                <a
+                  className="inline-flex items-center gap-2 text-[#e3e2e8] hover:text-[#e62020] font-['Montserrat'] text-[11px] font-bold uppercase tracking-wider transition-colors"
+                  href="https://wa.me/919588435668"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span className="material-symbols-outlined text-emerald-400 text-[18px]">chat</span>
+                  <span>WhatsApp Concierge (Rohan: 9588435668)</span>
+                  <span className="material-symbols-outlined text-[14px]">arrow_outward</span>
+                </a>
+                <a
+                  className="inline-flex items-center gap-2 text-[#e3e2e8] hover:text-[#e62020] font-['Montserrat'] text-[11px] font-bold uppercase tracking-wider transition-colors"
+                  href="https://wa.me/919975177822"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <span className="material-symbols-outlined text-emerald-400 text-[18px]">chat</span>
+                  <span>WhatsApp Concierge (Onkar: 9975177822)</span>
+                  <span className="material-symbols-outlined text-[14px]">arrow_outward</span>
+                </a>
               </div>
-              <a
-                className="inline-flex items-center gap-2 text-[#e3e2e8] hover:text-[#e62020] font-['Montserrat'] text-[11px] font-bold uppercase tracking-wider transition-colors"
-                href="https://wa.me/919588435668"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <span className="material-symbols-outlined text-emerald-400 text-[18px]">chat</span>
-                <span>Open WhatsApp Concierge Link</span>
-                <span className="material-symbols-outlined text-[14px]">arrow_outward</span>
-              </a>
             </div>
 
             <div className="bg-[#1a1b20] border border-[#c5c6c7]/15 p-6 rounded-xl">
@@ -430,89 +434,20 @@ export const ContactView: React.FC = () => {
               <p className="font-['Inter'] text-xs text-[#c5c6c7] mb-4">
                 Are you a performance workshop or tuning studio in India? Apply for wholesale allocations, dealer offsets, and priority batch milling.
               </p>
-              <a
-                href="mailto:rohandpatil420@gmail.com"
-                className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] text-[#e3e2e8] text-[11px] font-['Montserrat'] font-bold uppercase tracking-wider transition-colors rounded"
-              >
-                <span>Inquire for Partner Tier</span>
-                <span className="material-symbols-outlined text-[16px]">chevron_right</span>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* SINGLE CENTRAL BRANCH: TALEGAON, PUNE, MAHARASHTRA */}
-        <section className="mb-20">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-4 border-b border-[#c5c6c7]/15">
-            <div>
-              <span className="font-['Montserrat'] text-[11px] font-bold text-[#e62020] uppercase tracking-widest block mb-1">
-                PRIMARY BRANCH LOCATION
-              </span>
-              <h2 className="font-['Montserrat'] text-2xl lg:text-3xl font-bold uppercase text-[#e3e2e8]">
-                Central Headquarters &amp; Engineering Center
-              </h2>
-            </div>
-            <span className="font-['Inter'] text-xs text-[#c5c6c7] mt-2 sm:mt-0">
-              Personal consultations available by reservation with our chief wheel architects.
-            </span>
-          </div>
-
-          {/* Single Branch Card */}
-          <div className="bg-[#1a1b20] border border-[#e62020]/40 p-8 lg:p-10 rounded-xl relative shadow-2xl overflow-hidden group">
-            <div className="absolute top-0 right-0 w-48 h-48 bg-[#e62020]/5 rounded-full blur-3xl pointer-events-none"></div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-8 space-y-4">
-                <div className="flex flex-wrap items-center gap-3">
-                  <span className="px-3 py-1 rounded bg-[#1f1f24] text-[#e62020] border border-[#e62020]/30 text-[11px] font-['Montserrat'] font-bold uppercase">
-                    {centralBranch.typeBadge}
-                  </span>
-                  <span className="text-xs font-mono text-[#c5c6c7] bg-[#121317] px-2.5 py-0.5 rounded border border-[#c5c6c7]/10">
-                    {centralBranch.timezone}
-                  </span>
-                </div>
-
-                <h3 className="font-['Montserrat'] text-2xl sm:text-3xl font-bold uppercase text-white">
-                  {centralBranch.name}
-                </h3>
-
-                <p className="font-['Inter'] text-sm text-[#c5c6c7] leading-relaxed max-w-2xl">
-                  {centralBranch.address}
-                </p>
-
-                <p className="font-['Inter'] text-xs text-[#e62020] font-semibold">
-                  Key Capabilities: {centralBranch.specialty}
-                </p>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-[#c5c6c7]/15 font-mono text-xs text-[#c5c6c7]">
-                  <div>
-                    <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Telephone Hotline</span>
-                    <span className="text-white font-bold text-sm">+91 9588435668</span>
-                  </div>
-                  <div>
-                    <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Hours of Operation</span>
-                    <span className="text-white text-sm">{centralBranch.hours}</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="lg:col-span-4 flex flex-col gap-3">
+              <div className="flex flex-col gap-2">
                 <a
-                  href={`tel:${centralBranch.phone.replace(/\s+/g, '')}`}
-                  className="w-full py-3.5 bg-[#e62020] hover:bg-[#ff2a2a] text-white text-center font-['Montserrat'] text-xs font-bold uppercase tracking-wider rounded crimson-glow transition-all flex items-center justify-center gap-2 shadow-lg"
+                  href="mailto:rohandpatil420@gmail.com"
+                  className="inline-flex items-center justify-between px-3.5 py-2 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] text-[#e3e2e8] text-[11px] font-['Montserrat'] font-bold uppercase tracking-wider transition-colors rounded"
                 >
-                  <span className="material-symbols-outlined text-lg">call</span>
-                  <span>Call Headquarters</span>
+                  <span>Chief Technical Desk (Rohan)</span>
+                  <span className="font-mono text-[#e62020] text-[10px]">rohandpatil420@gmail.com</span>
                 </a>
-
                 <a
-                  href="https://wa.me/919588435668"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full py-3.5 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] hover:bg-[#292a2e] text-[#e3e2e8] text-center font-['Montserrat'] text-xs font-bold uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-2"
+                  href="mailto:onkarpacharane123@gmail.com"
+                  className="inline-flex items-center justify-between px-3.5 py-2 bg-[#1f1f24] border border-[#c5c6c7]/25 hover:border-[#e62020] text-[#e3e2e8] text-[11px] font-['Montserrat'] font-bold uppercase tracking-wider transition-colors rounded"
                 >
-                  <span className="material-symbols-outlined text-emerald-400 text-lg">chat</span>
-                  <span>WhatsApp Concierge</span>
+                  <span>Operations &amp; Fitment (Onkar)</span>
+                  <span className="font-mono text-[#e62020] text-[10px]">onkarpacharane123@gmail.com</span>
                 </a>
               </div>
             </div>

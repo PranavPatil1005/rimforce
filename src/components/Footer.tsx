@@ -71,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
             </ul>
           </div>
 
-          {/* Col 3: Single Central Headquarters & Branch */}
+          {/* Col 3: Central Facility & Direct Contacts */}
           <div className="flex flex-col gap-3">
             <h4 className="font-['Montserrat'] uppercase text-[#e3e2e8] text-xs font-bold tracking-wider">
               Central Branch &amp; HQ
@@ -79,13 +79,35 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
             <div className="space-y-2 text-xs font-['Inter'] text-[#c5c6c7]">
               <div>
                 <strong className="text-white block font-['Montserrat'] uppercase text-[11px]">
-                  Pune CNC Engineering Center &amp; HQ
+                  Central Engineering Facility &amp; HQ
                 </strong>
                 <span>Plot 42, MIDC Industrial Area, Talegaon Dabhade, Pune, Maharashtra 410507</span>
               </div>
-              <div className="pt-1">
-                <span className="text-[#c5c6c7] block">Phone:</span>
-                <span className="text-white font-mono font-semibold">+91 9588435668</span>
+              <div className="pt-1 flex flex-col gap-1 font-mono text-xs">
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-[#e62020] text-sm">call</span>
+                  <a href="tel:+919588435668" className="text-white font-semibold hover:text-[#e62020] transition-colors">
+                    +91 95884 35668
+                  </a>
+                </div>
+                <div className="text-[11px] text-[#c5c6c7]/70 pl-6 flex flex-wrap gap-x-1.5">
+                  <a href="tel:+919975177822" className="hover:text-white">9975177822</a>
+                  <span>•</span>
+                  <a href="tel:+917447338321" className="hover:text-white">7447338321</a>
+                  <span>•</span>
+                  <a href="tel:+919579297452" className="hover:text-white">9579297452</a>
+                </div>
+                <div className="flex items-center gap-2 pt-0.5">
+                  <span className="material-symbols-outlined text-[#e62020] text-sm">mail</span>
+                  <a href="mailto:rohandpatil420@gmail.com" className="text-[#e3e2e8] hover:text-[#e62020] transition-colors truncate">
+                    rohandpatil420@gmail.com
+                  </a>
+                </div>
+                <div className="text-[10px] text-[#c5c6c7]/60 pl-6 flex flex-col gap-0.5">
+                  <a href="mailto:onkarpacharane123@gmail.com" className="hover:text-white truncate">onkarpacharane123@gmail.com</a>
+                  <a href="mailto:jayjadhav3007@gmail.com" className="hover:text-white truncate">jayjadhav3007@gmail.com</a>
+                  <a href="mailto:yashrajgorhe07@gmail.com" className="hover:text-white truncate">yashrajgorhe07@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>

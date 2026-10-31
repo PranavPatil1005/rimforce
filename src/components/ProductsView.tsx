@@ -211,6 +211,20 @@ export const ProductsView: React.FC<ProductsViewProps> = ({ onAddToCart, onSelec
             );
           })}
         </div>
+
+        {/* Minimal clean fitment assistance footer */}
+        <div className="mt-8 pt-8 border-t border-[#c5c6c7]/15 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <p className="text-[#c5c6c7] font-['Inter']">
+            Need custom bolt pattern matching, brake caliper clearance, or bespoke offsets?
+          </p>
+          <button
+            onClick={() => onSelectTab('contact')}
+            className="text-xs font-['Montserrat'] font-bold text-[#e62020] hover:underline uppercase flex items-center gap-1 cursor-pointer"
+          >
+            <span>Inquire With Engineering</span>
+            <span className="material-symbols-outlined text-sm">arrow_forward</span>
+          </button>
+        </div>
       </div>
     </div>
   );

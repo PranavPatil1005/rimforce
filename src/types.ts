@@ -41,3 +41,12 @@ export interface AtelierLocation {
   hours: string;
   specialty: string;
 }
+
+export interface TeamContact {
+  id: string;
+  name: string;
+  role: string;
+  phone: string;
+  displayPhone: string;
+  email: string;
+}

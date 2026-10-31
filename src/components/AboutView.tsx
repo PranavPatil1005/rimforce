@@ -143,7 +143,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSelectTab }) => {
             </h2>
           </div>
 
-          <div className="bg-[#12141A] border border-[#c5c6c7]/15 p-8 rounded-xl space-y-4 hover:border-[#e62020]/60 transition-colors">
+          <div className="bg-[#12141A] border border-[#c5c6c7]/15 p-8 rounded-xl space-y-6 hover:border-[#e62020]/60 transition-colors">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="px-2.5 py-1 rounded bg-[#1a1b20] text-[#e62020] border border-[#e62020]/30 text-[10px] font-['Montserrat'] font-bold uppercase">
                 {centralBranch.typeBadge}
@@ -158,18 +158,20 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSelectTab }) => {
               {centralBranch.address}
             </p>
 
-            <div className="pt-3 border-t border-[#c5c6c7]/15 text-xs font-mono grid grid-cols-1 sm:grid-cols-3 gap-3 text-[#c5c6c7]">
-              <div>
-                <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Phone:</span>
-                <span className="text-white font-semibold">+91 9588435668</span>
-              </div>
-              <div>
-                <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Hours:</span>
-                <span className="text-white">{centralBranch.hours}</span>
-              </div>
-              <div>
-                <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Facility:</span>
-                <span className="text-emerald-400 font-semibold">10,000T Forging &amp; 5-Axis CNC</span>
+            <div className="pt-4 border-t border-[#c5c6c7]/15">
+              <div className="text-xs font-mono grid grid-cols-1 sm:grid-cols-3 gap-3 text-[#c5c6c7]">
+                <div>
+                  <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">HQ Reception &amp; Hotline:</span>
+                  <a href="tel:+919588435668" className="text-white hover:text-[#e62020] font-semibold">+91 95884 35668</a>
+                </div>
+                <div>
+                  <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Talegaon Landline:</span>
+                  <a href="tel:+912044109200" className="text-white hover:text-[#e62020] font-semibold">+91 20 4410 9200</a>
+                </div>
+                <div>
+                  <span className="text-[#c5c6c7]/70 block text-[10px] uppercase">Facility Capabilities:</span>
+                  <span className="text-emerald-400 font-semibold">10,000T Forging &amp; 5-Axis CNC</span>
+                </div>
               </div>
             </div>
           </div>

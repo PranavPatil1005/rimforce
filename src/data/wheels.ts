@@ -1,6 +1,41 @@
-import { WheelProduct, AtelierLocation } from '../types';
+import { WheelProduct, AtelierLocation, TeamContact } from '../types';
 
 export const BRAND_LOGO_IMAGE = '/assets/aistudio/logo_df8b2043.jpeg';
+
+export const TEAM_CONTACTS: TeamContact[] = [
+  {
+    id: 'rohan',
+    name: 'Rohan Patil',
+    role: 'Chief Technical & CNC Specialist',
+    phone: '+919588435668',
+    displayPhone: '+91 95884 35668',
+    email: 'rohandpatil420@gmail.com',
+  },
+  {
+    id: 'onkar',
+    name: 'Onkar Pacharane',
+    role: 'Fitment & Production Operations',
+    phone: '+919975177822',
+    displayPhone: '+91 99751 77822',
+    email: 'onkarpacharane123@gmail.com',
+  },
+  {
+    id: 'jay',
+    name: 'Jay Jadhav',
+    role: 'Forging Specialist & Quality Control',
+    phone: '+917447338321',
+    displayPhone: '+91 74473 38321',
+    email: 'jayjadhav3007@gmail.com',
+  },
+  {
+    id: 'yashraj',
+    name: 'Yashraj Gorhe',
+    role: 'Logistics & Client Relations Specialist',
+    phone: '+919579297452',
+    displayPhone: '+91 95792 97452',
+    email: 'yashrajgorhe07@gmail.com',
+  },
+];
 
 export const WHEEL_PRODUCTS: WheelProduct[] = [
   {

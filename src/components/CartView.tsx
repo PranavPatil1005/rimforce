@@ -289,6 +289,16 @@ export const CartView: React.FC<CartViewProps> = ({
               <div className="text-[11px] text-[#c5c6c7]/80 text-center font-mono">
                 Production Lead Time: 14 Business Days from Talegaon, Pune Lab
               </div>
+
+              <div className="pt-3 border-t border-[#c5c6c7]/15 text-center">
+                <button
+                  onClick={() => onSelectTab('contact')}
+                  className="text-[11px] text-[#c5c6c7] hover:text-[#e62020] transition-colors font-['Montserrat'] uppercase font-bold tracking-wider inline-flex items-center gap-1 cursor-pointer"
+                >
+                  <span>Need Custom Fitment Assistance?</span>
+                  <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                </button>
+              </div>
             </div>
           </div>
         )}
