@@ -50,3 +50,28 @@ export interface TeamContact {
   displayPhone: string;
   email: string;
 }
+
+export interface OrderFormData {
+  firstName: string;
+  lastName: string;
+  email: string;
+  address: string;
+  pincode: string;
+  contactNumber: string;
+  vehicleModel?: string;
+  specialNotes?: string;
+}
+
+export interface PlacedOrder {
+  orderId: string;
+  createdAt: string;
+  customer: OrderFormData;
+  items: CartItem[];
+  totalAmount: number;
+  totalWeightSaved: number;
+  whatsappNumber: string;
+  whatsappUrl: string;
+  emailSubject: string;
+  emailSent: boolean;
+}
+
